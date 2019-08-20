@@ -1,0 +1,12 @@
+
+html {
+    background-color: green;
+}
+/* body {
+    background-image: url('../images/background.JPG');
+} */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
