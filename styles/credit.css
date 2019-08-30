@@ -1,0 +1,54 @@
+.credit {
+    flex-grow: 2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    height: 87vh;
+    padding: 20px;
+    border-radius: 25px;
+    background: white;
+    overflow-y: scroll;
+}
+.credit-container {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    color: rgb(250, 164, 178);
+    height: 80vh;
+    padding: 10px;
+}
+.credit-img {
+    background: url('../images/credit.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px solid rgb(250, 164, 178);
+    border-radius: 15px;
+    width: 30vw;
+    height: 300px;
+}
+.bottom-row {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
+.side-col {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(48, 47, 47);
+}

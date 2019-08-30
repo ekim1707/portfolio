@@ -1,0 +1,22 @@
+.projtwo {
+    flex-grow: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    height: 87vh;
+    padding: 20px;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+#projtwo-link {
+    color: gray;
+    transition: 0.5s;
+}
+#projtwo-link:hover {
+    color: rgb(248, 103, 103);
+    transition: 0.5s;    
+}
