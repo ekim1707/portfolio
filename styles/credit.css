@@ -36,10 +36,9 @@
     border: 10px solid rgb(250, 164, 178);
     border-radius: 15px;
     width: 30vw;
-    height: 500px;
+    height: 200px;
 }
 .bottom-row {
-    flex-grow: 1;
     display: flex;
     flex-flow: row nowrap;
     justify-content: stretch;
@@ -51,7 +50,6 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 30vh;
     color: rgb(48, 47, 47);
 }
 .margin-control {
