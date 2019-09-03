@@ -25,7 +25,7 @@
     padding: 10px;
 }
 .credit-img {
-    background: url('images/credit.jpg');
+    background: url('/images/credit.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
