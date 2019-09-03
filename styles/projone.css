@@ -12,11 +12,3 @@
     border-radius: 25px;
     overflow-y: scroll;
 }
-#instaid-link {
-    color: gray;
-    transition: 0.5s;
-}
-#instaid-link:hover {
-    color: rgb(248, 103, 103);
-    transition: 0.5s;    
-}

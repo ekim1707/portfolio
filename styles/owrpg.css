@@ -12,11 +12,11 @@
     border-radius: 25px;
     overflow-y: scroll;
 }
-#owrpg-link {
+#featured-link, #instaid-link, #owrpg-link {
     color: gray;
     transition: 0.5s;
 }
-#owrpg-link:hover {
+#featured-link:hover, #instaid-link:hover, #owrpg-link:hover {
     color: rgb(248, 103, 103);
     transition: 0.5s;    
 }

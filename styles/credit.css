@@ -19,6 +19,7 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
+    font-size: 18px;
     color: rgb(250, 164, 178);
     height: 80vh;
     padding: 10px;
@@ -35,7 +36,7 @@
     border: 10px solid rgb(250, 164, 178);
     border-radius: 15px;
     width: 30vw;
-    height: 300px;
+    height: 500px;
 }
 .bottom-row {
     flex-grow: 1;
@@ -50,5 +51,9 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    height: 30vh;
     color: rgb(48, 47, 47);
+}
+.margin-control {
+    margin: 5px;
 }
