@@ -19,10 +19,16 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
-    font-size: 18px;
+    font-size: 3vh;
     color: rgb(250, 164, 178);
     height: 80vh;
     padding: 10px;
+    overflow-y: scroll;
+}
+.top-row {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 40vh;
 }
 .credit-img {
     background: url('/images/credit.jpg');
@@ -36,13 +42,13 @@
     border: 10px solid rgb(250, 164, 178);
     border-radius: 15px;
     width: 30vw;
-    height: 40vh;
+    height: 70%;
 }
 .bottom-row {
     display: flex;
     flex-flow: row nowrap;
     justify-content: stretch;
-    align-items: center;
+    height: 40vh;
 }
 .side-col {
     flex-grow: 1;
