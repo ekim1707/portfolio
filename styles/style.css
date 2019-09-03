@@ -35,7 +35,7 @@ html {
 .profile {
     height: 160px;
     width: 160px;
-    background-image: url('/images/profile.JPG');
+    background-image: url('/images/profile.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
