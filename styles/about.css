@@ -32,8 +32,8 @@ label {
     height: 5vh;
 }
 .imp-links {
-    width: 3vw;
-    height: 6vh;
+    width: 40px;
+    height: 40px;
     margin: .5vw;
     transition: 0.5s;
 }
