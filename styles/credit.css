@@ -28,7 +28,7 @@
 .top-row {
     display: flex;
     flex-flow: column nowrap;
-    height: 40vh;
+    height: 50vh;
 }
 .credit-img {
     background: url('/images/credit.jpg');
@@ -48,7 +48,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: stretch;
-    height: 40vh;
+    height: 30vh;
     overflow: auto;
 }
 .side-col {
@@ -58,6 +58,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    font-size: 2vh;
     color: rgb(48, 47, 47);
 }
 .margin-control {
