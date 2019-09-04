@@ -10,5 +10,5 @@
     height: 87vh;
     padding: 20px;
     border-radius: 25px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }

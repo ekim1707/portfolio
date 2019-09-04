@@ -5,7 +5,7 @@
     font-weight: bolder;
     height: 87vh;
     background: white;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .small-left {
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .info {
     color: dodgerblue;
@@ -72,7 +72,7 @@ label {
     padding: 10px 20px 10px 20px;
     font-size: 2.5vh;
     text-align: center;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .small-right {
     display: flex;
@@ -82,7 +82,7 @@ label {
     border-radius: 15px;
     margin: 10px;
     text-align: left;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .skills-label {
     border-radius: 15px;
