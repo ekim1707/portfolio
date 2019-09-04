@@ -43,11 +43,11 @@ label {
     background: rgb(248, 103, 103);
 }
 #icon-github {
-    background-image: url('/images/icon-github.jpg');
+    background-image: url('/images/icon-github.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 #icon-linkedin {
     background-image: url('/images/icon-linkedin.png');
