@@ -10,7 +10,7 @@
 .small-left {
     display: flex;
     flex-flow: column nowrap;
-    width: 15%;
+    width: 20%;
     justify-content: space-between;
     padding: 20px;
     overflow-y: scroll;
@@ -65,7 +65,7 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 35%;
+    width: 30%;
     border-radius: 15px;
     margin: 10px 0 10px 0;
     padding: 10px 20px 10px 20px;
