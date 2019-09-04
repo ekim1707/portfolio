@@ -32,35 +32,36 @@ label {
     height: 5vh;
 }
 .imp-links {
-    width: 25%;
-    height: 5vh;
-    padding: 2px;
+    width: 3vw;
+    height: 6vh;
+    margin: .5vw;
     transition: 0.5s;
 }
 .imp-links:hover {
     cursor: pointer;
     transition: 0.5s;
+    background: rgb(248, 103, 103);
 }
 #icon-github {
-    height: 90%;
     background-image: url('/images/icon-github.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 25px;
 }
 #icon-linkedin {
-    height: 160%;
     background-image: url('/images/icon-linkedin.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 #icon-facebook {
-    height: 140%;
     background-image: url('/images/icon-facebook.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .center {
     display: flex;
