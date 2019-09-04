@@ -40,7 +40,6 @@ label {
 .imp-links:hover {
     cursor: pointer;
     transition: 0.5s;
-    background: rgb(248, 103, 103);
 }
 #icon-github {
     background-image: url('/images/icon-github.svg');
