@@ -49,6 +49,7 @@
     flex-flow: row nowrap;
     justify-content: stretch;
     height: 40vh;
+    overflow: auto;
 }
 .side-col {
     flex-grow: 1;
@@ -56,6 +57,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    width: 50%;
     color: rgb(48, 47, 47);
 }
 .margin-control {
