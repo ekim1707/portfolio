@@ -11,7 +11,7 @@
     padding: 20px;
     border-radius: 25px;
     background: white;
-    overflow-y: auto;
+    overflow-y: none;
 }
 .credit-container {
     flex-grow: 1;
@@ -23,7 +23,7 @@
     color: rgb(250, 164, 178);
     height: 80vh;
     padding: 10px;
-    overflow-y: auto;
+    overflow-y: none;
 }
 .top-row {
     display: flex;
@@ -31,7 +31,7 @@
     height: 50vh;
 }
 .credit-img {
-    background: url('/images/credit.jpg');
+    background: url('../images/credit.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@
     flex-flow: row nowrap;
     justify-content: stretch;
     height: 30vh;
-    overflow: auto;
+    overflow: none;
 }
 .side-col {
     flex-grow: 1;

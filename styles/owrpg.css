@@ -58,5 +58,150 @@
 
 /* @media screen and (max-width: 768px) and (orientation: portrait), screen and (max-width: 1024px) and (orientation:  landscape) */
 @media screen and (max-width: 1400px) and (orientation: landscape) {
+.main-container {
+    max-width: 97%;
+    max-height: 95%;
+}
+.first-col {
+    height: 95%;
+}
+.small-left {
+    width: 50%;
+}
+.center {
+    display: none;
+}
+.small-right {
+    width: 50%;
+}
+.about, .credit, .projone, .projtwo, .projthree, .owrpg {
+    height: 100%;
+}
+}
 
+@media screen and (max-width: 1100px) and (orientation: portrait) {
+.small-container {
+    width: 97%;
+}
+.first-col {
+    width: 130px;
+}
+.profile {
+    height: 140px;
+    width: 140px;
+}
+.portfolio-nav {
+    width: 115px;
+}
+.small-left {
+    width: 50%;
+}
+.center {
+    display: none;
+}
+.small-right {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+.main-container {
+    max-width: 97%;
+    max-height: 95%;
+}
+.first-col {
+    border: 5px solid whitesmoke;
+    background: white;
+}
+.profile {
+    display: none;
+}
+.about, .credit, .projone, .projtwo, .projthree, .owrpg {
+    width: 50vw;
+    height: 100%;
+}
+.top-row, .bottom-row {
+    justify-content: center;
+    margin: 1vh;
+}
+.credit-img {
+    display: none;
+}
+.small-left {
+    width: 50%;
+}
+.center {
+    display: none;
+}
+.small-right {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+.portfolio-nav {
+    font-size: 0;
+    overflow-y: scroll;
+}
+.credit {
+    overflow: auto;
+}
+.top-row, .bottom-row {
+    margin: 1vh;
+}
+}
+
+@media screen and (max-width: 450px) and (orientation: portrait) {
+.flex-container {
+    height: 81vh;
+    margin-bottom: 15vh;
+    border-radius: 0;
+}
+.main-container {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+}
+.small-container {
+    border-radius: 0;
+}
+.about {
+    flex-flow: column;
+}
+.small-left, .small-right {
+    width: 95%;
+    height: 50%;
+}
+.small-left, p {
+    font-size: 1vh;
+}
+.profile {
+    display: none;
+}
+.portfolio-nav {
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.first-col {
+    display: flex;
+    position: absolute;
+    flex-flow: row nowrap;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 0;
+    margin: 0;
+}
+.personal-nav {
+    width: 50%;
+    border: none;
+    border-radius: 0;
+}
+#fifth {
+    display: none;
+}
+.skills-row {
+    padding: 5px;
+}
 }
