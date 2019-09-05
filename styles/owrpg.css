@@ -94,6 +94,10 @@
 iframe {
     width: 90%;
 }
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 1100px) and (orientation: portrait) {
@@ -132,6 +136,7 @@ iframe {
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 100%;
+    width: 100%;
 }
 .credit-img {
     width: 100%;
@@ -194,6 +199,10 @@ iframe {
 iframe {
     width: 60%;
 }
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
@@ -210,15 +219,16 @@ iframe {
 .credit-container, .side-col {
     font-size: 2vh;
 }
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 450px) and (orientation: portrait) {
 .flex-container {
-    justify-content: flex-end;
-    height: 70vh;
-    margin-top: 25vh;
+    height: 81vh;
     margin-bottom: 15vh;
-    border: 1px solid red;
     border-radius: 0;
 }
 .main-container {
@@ -232,7 +242,7 @@ iframe {
 .about {
     flex-flow: row wrap;
     border-radius: 0;
-    height: 60vh;
+    height: 75vh;
     overflow: hidden;
 }
 .small-left {
@@ -298,6 +308,10 @@ iframe {
 .description {
     margin-top: -15vh;
 }
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
@@ -311,11 +325,19 @@ iframe {
     width: 15px;
     height: 15px;
 }
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 350px) and (orientation: portrait) {
 #projone, #projtwo, #projthree, #owrpg {
     width: 75%;
     height: 75%;
+}
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
+    width: 100%;
 }
 }
