@@ -81,9 +81,6 @@
 .about, .credit, .projone, .projtwo, .projthree, .owrpg {
     height: 100%;
 }
-#python-img, #jquery-img, #flexbox-img, #react-img, #node-img {
-    height: 100%;
-}
 .imp-links {
     width: 60px;
     height: 60px;
@@ -96,7 +93,6 @@ iframe {
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 100%;
-    width: 100%;
 }
 }
 
@@ -134,10 +130,6 @@ iframe {
     flex-flow: row wrap;
     overflow: hidden;
 }
-#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
-    width: 100%;
-}
 .credit-img {
     width: 100%;
 }
@@ -147,6 +139,9 @@ iframe {
 iframe {
     width: 100%;
     height: 80%;
+}
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    height: 100%;
 }
 }
 
@@ -200,8 +195,7 @@ iframe {
     width: 60%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
-    width: 100%;
+    height: 50%;
 }
 }
 
@@ -220,8 +214,7 @@ iframe {
     font-size: 2vh;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
-    width: 100%;
+    height: 50%;
 }
 }
 
@@ -309,8 +302,7 @@ iframe {
     margin-top: -15vh;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
-    width: 100%;
+    height: 50%;
 }
 }
 
@@ -326,8 +318,7 @@ iframe {
     height: 15px;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
-    width: 100%;
+    height: 50%;
 }
 }
 
@@ -337,7 +328,6 @@ iframe {
     height: 75%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
-    width: 100%;
+    height: 50%;
 }
 }
