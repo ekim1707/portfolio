@@ -41,6 +41,9 @@
 .red {
     color: rgb(48, 47, 47);
 }
+.red:hover {
+    color: rgb(248, 103, 103);
+}
 .gray {
     color: dodgerblue;
 }
