@@ -281,8 +281,12 @@ iframe {
 #fifth {
     display: none;
 }
+.small-right{
+    flex-flow: column nowrap;
+}
 .skills-row {
     padding: 5px;
+    font-size: 1vh;
 }
 .imp-links {
     width: 10px;
