@@ -214,8 +214,11 @@ iframe {
 
 @media screen and (max-width: 450px) and (orientation: portrait) {
 .flex-container {
-    height: 76vh;
+    justify-content: flex-end;
+    height: 70vh;
+    margin-top: 25vh;
     margin-bottom: 15vh;
+    border: 1px solid red;
     border-radius: 0;
 }
 .main-container {
@@ -229,7 +232,7 @@ iframe {
 .about {
     flex-flow: row wrap;
     border-radius: 0;
-    height: 70vh;
+    height: 60vh;
     overflow: hidden;
 }
 .small-left {
