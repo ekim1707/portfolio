@@ -207,6 +207,10 @@ iframe {
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     display: none;
 }
+#first {
+    height: 10vh;
+    background: yellow;
+}
 }
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
