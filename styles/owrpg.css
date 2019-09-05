@@ -92,7 +92,7 @@ iframe {
     width: 90%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    display: none;
+    height: 100%;
 }
 }
 
@@ -141,7 +141,7 @@ iframe {
     height: 80%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    display: none;
+    height: 100%;
 }
 }
 
