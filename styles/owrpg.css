@@ -246,6 +246,7 @@ iframe {
     overflow: hidden;
 }
 .small-left {
+    flex-flow: column wrap;
     width: 50%;
     height: 46%;
     overflow: hidden;
