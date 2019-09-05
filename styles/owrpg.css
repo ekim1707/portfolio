@@ -60,11 +60,11 @@
 
 @media screen and (max-width: 1400px) and (orientation: landscape) {
 .main-container {
-    max-width: 97%;
-    max-height: 95%;
+    max-width: 100%;
+    max-height: 100%;
 }
 .first-col {
-    height: 95%;
+    height: 100%;
 }
 .small-left, label, p {
     font-size: 2.5vh;
@@ -140,8 +140,8 @@
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
 .main-container {
-    max-width: 97%;
-    max-height: 95%;
+    max-width: 100%;
+    max-height: 100%;
 }
 .first-col {
     border: 5px solid whitesmoke;
