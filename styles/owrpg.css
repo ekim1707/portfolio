@@ -92,7 +92,7 @@ iframe {
     width: 90%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
+    display: none;
 }
 }
 
@@ -141,7 +141,7 @@ iframe {
     height: 80%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
+    display: none;
 }
 }
 
@@ -195,7 +195,7 @@ iframe {
     width: 60%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
+    display: none;
 }
 }
 
@@ -214,7 +214,7 @@ iframe {
     font-size: 2vh;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
+    display: none;
 }
 }
 
@@ -302,7 +302,7 @@ iframe {
     margin-top: -15vh;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
+    display: none;
 }
 }
 
@@ -328,6 +328,6 @@ iframe {
     height: 75%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    height: 100%;
+    display: none;
 }
 }
