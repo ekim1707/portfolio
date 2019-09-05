@@ -247,7 +247,9 @@ iframe {
 }
 .small-left {
     flex-flow: column wrap;
+    justify-content: flex-start;
     width: 50%;
+    height: 46%;
     overflow: hidden;
 }
 .center {
