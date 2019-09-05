@@ -91,6 +91,9 @@
 .credit-container, .side-col {
     font-size: 2vh;
 }
+iframe {
+    width: 90%;
+}
 }
 
 @media screen and (max-width: 1100px) and (orientation: portrait) {
@@ -135,6 +138,10 @@
 }
 .credit-container, .side-col {
     font-size: 2vh;
+}
+iframe {
+    width: 100%;
+    height: 80%;
 }
 }
 
@@ -183,6 +190,9 @@
 #side-col-img {
     width: 50%;
     height: 50%;
+}
+iframe {
+    width: 60%;
 }
 }
 
