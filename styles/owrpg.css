@@ -180,6 +180,10 @@
 .credit-container, .side-col {
     font-size: 2vh;
 }
+#side-col-img {
+    width: 50%;
+    height: 50%;
+}
 }
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
@@ -293,5 +297,12 @@ iframe {
 .imp-links {
     width: 15px;
     height: 15px;
+}
+}
+
+@media screen and (max-width: 350px) and (orientation: portrait) {
+#projone, #projtwo, #projthree, #owrpg {
+    width: 75%;
+    height: 75%;
 }
 }
