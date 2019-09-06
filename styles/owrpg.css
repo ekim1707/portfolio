@@ -511,6 +511,7 @@ li {
 .small-left {
     flex-flow: column wrap;
     justify-content: flex-start;
+    overflow: none;
 }
 .center {
     overflow-y: scroll;
