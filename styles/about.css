@@ -34,8 +34,9 @@ label {
 .imp-links {
     width: 40px;
     height: 40px;
-    margin: .5vw;
     transition: 0.5s;
+    margin: .5vw;
+    margin-left: 0;
 }
 .imp-links:hover {
     cursor: pointer;
