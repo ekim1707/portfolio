@@ -450,6 +450,9 @@ li {
     padding: 15px;
     overflow: hidden;
 }
+.portfolio-nav {
+    overflow: hidden;
+}
 .credit {
     overflow: hidden;
 }
