@@ -86,8 +86,8 @@
 .first-col {
     height: 100%;
 }
-.small-left, label, p, .resume {
-    font-size: 1vh;
+.small-left, label, p {
+    font-size: 2vh;
 }
 .small-left {
     width: 35%;
@@ -156,8 +156,8 @@ iframe {
 .portfolio-nav {
     width: 115px;
 }
-.small-left, label, p {
-    font-size: 2vh;
+.small-left, label, p, resume {
+    font-size: 1vh;
 }
 .small-left {
     flex-flow: column wrap;
