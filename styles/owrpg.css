@@ -161,6 +161,7 @@ iframe {
 .small-left {
     width: 50%;
     height: 48%;
+    overflow: hidden;
 }
 .center {
     width: 50%;
