@@ -208,9 +208,18 @@ iframe {
     align-items: center;
     height: 50%;
 }
-#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
-    width: 50%;
-    height: 50%;
+#python-img, #jquery-img, #flexbox-img, #react-img  {
+    height: 90px;
+}
+#python-img, #jquery-img {
+    width: 180px;
+}
+#flexbox-img, #react-img {
+    width: 90px;
+}
+#node-img {
+    width: 200px;
+    height: 120px;
 }
 .title {
     font-size: 4vh;
