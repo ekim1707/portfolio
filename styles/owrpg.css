@@ -499,9 +499,6 @@ li {
 
 
 @media screen and (max-height: 550px) and (orientation: landscape) {
-.flex-container {
-    height: 84vh;
-}
 .main-container {
     max-width: 100%;
     max-height: 100%;
@@ -514,16 +511,16 @@ li {
 }
 .small-left {
     flex-flow: column wrap;
-    justify-content: stretch;
-    overflow: none;
+    overflow: hidden;
+}
+.small-left, label, p {
+    font-size: 2vh;
 }
 .center {
     overflow-y: scroll;
 }
 .small-right {
     justify-content: stretch;
-    margin: 2px;
-    overflow-y: scroll;
 }
 .credit-container, .side-col {
     font-size: 2vh;
@@ -555,8 +552,5 @@ li {
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     display: none;
-}
-.small-left {
-    padding: 10px;
 }
 }
