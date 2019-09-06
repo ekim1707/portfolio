@@ -451,7 +451,7 @@ li {
     overflow: hidden;
 }
 .portfolio-nav {
-    width: 160px;
+    width: 140px;
     border: none;
     overflow: hidden;
 }
@@ -465,26 +465,11 @@ li {
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 100%;
 }
-#projone {
-    width: 40px;
-    height: 50px;
-}
-#projtwo {
-    width: 70px;
-    height: 40px;
-}
-#projthree {
-    width: 40px;
-    height: 40px;
-}
-#owrpg {
-    width: 75px;
-    height: 15px;
-}
 .first-col {
-    width: 160px;
+    width: 140px;
 }
 .projects {
+    padding: 5px;
 }
 }
 
