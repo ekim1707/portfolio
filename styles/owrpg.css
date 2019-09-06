@@ -505,7 +505,7 @@ li {
 .profile {
     display: none;
 }
-.about {
+.about, .small-container {
     overflow-y: scroll;
 }
 .small-left {
