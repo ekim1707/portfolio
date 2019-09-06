@@ -285,12 +285,12 @@ iframe {
     flex-flow: column wrap;
     justify-content: flex-start;
     width: 50%;
-    height: 55%;
+    height: 50%;
     overflow: hidden;
 }
 .center {
     width: 50%;
-    height: 55%;
+    height: 50%;
     font-size: 1vh;
 }
 .small-left, label, p {
@@ -319,6 +319,7 @@ iframe {
     height: 40%;
 }
 .skills-row {
+    margin: 2px;
     padding: 5px;
     font-size: 1vh;
     justify-content: center;
