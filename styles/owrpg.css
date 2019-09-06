@@ -522,15 +522,6 @@ li {
 .small-right {
     justify-content: stretch;
 }
-.credit-container, .side-col {
-    font-size: 2vh;
-}
-.credit-container {
-    justify-content: space-evenly;
-}
-.credit-img {
-    display: none;
-}
 .first-col {
     height: 100%;
     border: 10px solid whitesmoke;
@@ -561,6 +552,7 @@ li {
 .credit-container {
     height: 50vh;
     flex-flow: row nowrap;
+    justify-content: space-evenly;
 }
 .bottom-row {
     width: 40%;
