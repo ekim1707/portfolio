@@ -22,13 +22,21 @@
     transition: 0.5s;    
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    width: 100%;
+    height: 10%;
+}
 .iframe {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 .description {
     display: flex;
@@ -265,8 +273,8 @@ iframe {
     height: 80%;
 }
 iframe {
-    width: 50%;
-    height: 80%;
+    width: 60%;
+    height: 110%;
 }
 .iframe {
     align-items: center;
@@ -388,7 +396,7 @@ iframe {
     display: none;
 }
 iframe {
-    height: 50%;
+    height: 80%;
 }
 .iframe {
     flex-flow: column nowrap;
