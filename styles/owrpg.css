@@ -451,7 +451,7 @@ li {
     overflow: hidden;
 }
 .portfolio-nav {
-    width: 140px;
+    width: 160px;
     border: none;
     overflow: hidden;
 }
@@ -485,7 +485,6 @@ li {
     width: 160px;
 }
 .projects {
-    padding: 3px;
 }
 }
 
