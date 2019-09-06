@@ -227,7 +227,7 @@ iframe {
 }
 }
 
-@media screen and (max-width: 900px) and (orientation: landscape), screen and (min-width: 450px) and (orientation: portrait) {
+@media screen and (max-width: 900px) and (orientation: landscape) {
 .flex-container{
     height: 85vh;
 }
