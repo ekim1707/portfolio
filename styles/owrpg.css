@@ -218,6 +218,7 @@ iframe {
 .skills-row {
     flex-grow: 1;
     margin: 3px;
+    padding: 2px;
     justify-content: center;
 }
 .title {
