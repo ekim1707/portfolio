@@ -233,6 +233,9 @@ iframe {
     justify-content: center;
     padding: 5px;
 }
+.title {
+    font-size: 2vh;
+}
 }
 
 @media screen and (max-width: 680px) and (orientation: landscape) {
@@ -282,7 +285,6 @@ iframe {
 }
 .projone, .projtwo, .projthree, .owrpg {
     height: 100%;
-    font-size: 1vh;
     justify-content: space-evenly;
     align-items: center;
 }
