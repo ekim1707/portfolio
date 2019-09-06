@@ -495,3 +495,9 @@ li {
     display: none;
 }
 }
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+.profile {
+    display: none;
+}
+}
