@@ -500,4 +500,8 @@ li {
 .profile {
     display: none;
 }
+.small-left {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
 }
