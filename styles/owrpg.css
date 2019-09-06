@@ -506,6 +506,9 @@ li {
 .about, .credit, .projone, .projtwo, .projthree, .owrpg {
     height: 100%;
 }
+.projone, .projtwo, .projthree, .owrpg {
+    flex-flow: row nowrap;
+}
 .profile {
     display: none;
 }
