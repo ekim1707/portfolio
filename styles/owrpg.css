@@ -511,6 +511,7 @@ li {
 }
 .small-right {
     justify-content: stretch;
+    margin: 2px;
 }
 .first-col {
     border: 10px solid whitesmoke;
