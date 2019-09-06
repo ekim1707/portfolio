@@ -253,9 +253,6 @@ iframe {
     justify-content: center;
     align-items: center;
 }
-.margin-control {
-    margin: 0;
-}
 .credit-img {
     width: 60%;
     border: 5px solid pink;
@@ -283,6 +280,9 @@ iframe {
 }
 .credit-container, .side-col {
     font-size: 2vh;
+}
+.side-col {
+    width: 100%;
 }
 #side-col-img {
     width: 50%;
