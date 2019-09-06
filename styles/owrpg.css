@@ -572,4 +572,7 @@ li {
 #side-col-img {
     display: none;
 }
+iframe {
+    width: 50%;
+}
 }
