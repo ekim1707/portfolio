@@ -503,6 +503,7 @@ li {
 .small-left {
     flex-flow: column wrap;
     justify-content: flex-start;
+    border: 10px solid whitesmoke;
 }
 .imp-links {
     width: 15px;
