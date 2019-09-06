@@ -86,7 +86,7 @@
 .first-col {
     height: 100%;
 }
-.small-left, label, p {
+.small-left, label, p, .resume {
     font-size: 2vh;
 }
 .small-left {
@@ -157,7 +157,7 @@ iframe {
     width: 115px;
 }
 .small-left, label, p {
-    font-size: 1vh;
+    font-size: 2vh;
 }
 .small-left {
     flex-flow: column wrap;
