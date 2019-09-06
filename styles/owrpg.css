@@ -498,7 +498,7 @@ li {
 }
 
 
-@media screen and (max-width: 900px) and (max-height: 550px) and (orientation: landscape) {
+@media screen and (min-width: 900px) and (max-height: 550px) and (orientation: landscape) {
 .main-container {
     max-width: 100%;
     max-height: 100%;
