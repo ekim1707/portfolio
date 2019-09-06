@@ -131,6 +131,15 @@ iframe {
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 90px;
 }
+#python-img, #jquery-img {
+    width: 30%;
+}
+#flexbox-img, #react-img {
+    width: 17.5%;
+}
+#node-img {
+    width: 60%;
+}
 }
 
 @media screen and (max-width: 1100px) and (orientation: portrait) {
