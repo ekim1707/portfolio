@@ -454,7 +454,7 @@ li {
     overflow-y: scroll;
 }
 .portfolio-nav {
-    overflow: hidden;
+    overflow: scroll;
 }
 .credit {
     overflow: hidden;
