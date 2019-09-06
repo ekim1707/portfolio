@@ -197,7 +197,7 @@ iframe {
     flex-flow: column wrap;
     justify-content: flex-start;
     width: 50%;
-    padding: 20px;
+    padding: 25px;
     overflow: hidden;
 }
 .center {
