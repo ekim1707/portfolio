@@ -128,7 +128,7 @@ iframe {
 .title {
     font-size: 6vh;
 }
-#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+#python-img, #jquery-img, #flexbox-img, #react-img  {
     height: 90px;
 }
 #python-img, #jquery-img {
@@ -139,6 +139,7 @@ iframe {
 }
 #node-img {
     width: 240px;
+    height: 140px;
 }
 }
 
