@@ -89,6 +89,7 @@
     font-size: 2vh;
 }
 .small-left {
+    flex-flow: column wrap;
     width: 35%;
     overflow: hidden;
 }
