@@ -156,7 +156,7 @@ iframe {
 .portfolio-nav {
     width: 115px;
 }
-.small-left, p {
+.small-left, label, p {
     font-size: 1vh;
 }
 .small-left {
@@ -387,7 +387,7 @@ iframe {
     font-size: 1vh;
 }
 .small-left, label, p {
-    font-size: .5vw;
+    font-size: 1vh;
 }
 .profile {
     display: none;
