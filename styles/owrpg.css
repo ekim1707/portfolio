@@ -515,4 +515,7 @@ li {
 .projects {
     padding: 4px;
 }
+.skills-row {
+    font-size: 2.5vh;
+}
 }
