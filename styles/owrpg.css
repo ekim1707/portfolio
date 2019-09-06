@@ -505,6 +505,9 @@ li {
 .profile {
     display: none;
 }
+.about {
+    overflow-y: scroll;
+}
 .small-left {
     flex-flow: column wrap;
     justify-content: flex-start;
