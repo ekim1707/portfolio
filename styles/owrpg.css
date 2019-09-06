@@ -157,7 +157,7 @@ iframe {
 .portfolio-nav {
     width: 115px;
 }
-.small-left, p {
+.small-left, p, label, .resume {
     font-size: 1vh;
 }
 .small-left {
