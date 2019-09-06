@@ -509,6 +509,14 @@ li {
 .projone, .projtwo, .projthree, .owrpg {
     flex-flow: row nowrap;
 }
+.title, .description {
+    width: 20%;
+    height: 100%;
+}
+.iframe {
+    width: 60%;
+    height: 100%;
+}
 .profile {
     display: none;
 }
