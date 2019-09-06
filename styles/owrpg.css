@@ -191,12 +191,13 @@ iframe {
     border: 5px solid pink;
 }
 .small-left, label, p {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
 }
 .small-left {
     flex-flow: column wrap;
     justify-content: flex-start;
     width: 40%;
+    overflow: hidden;
 }
 .center {
     display: none;
