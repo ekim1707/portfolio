@@ -52,14 +52,14 @@ label {
 #icon-linkedin {
     background-image: url('/images/icon-linkedin.png');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
 #icon-facebook {
     background-image: url('/images/icon-facebook.png');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
