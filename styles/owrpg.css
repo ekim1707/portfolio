@@ -450,6 +450,9 @@ li {
     padding: 15px;
     overflow: hidden;
 }
+.first-col {
+    overflow-y: scroll;
+}
 .portfolio-nav {
     overflow: hidden;
 }
