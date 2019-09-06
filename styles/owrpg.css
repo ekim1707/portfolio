@@ -497,6 +497,7 @@ li {
 }
 }
 
+
 @media screen and (max-height: 500px) and (orientation: landscape) {
 .profile {
     display: none;
@@ -517,6 +518,10 @@ li {
     padding: 4px;
 }
 .skills-row {
+    justify-content: center;
     font-size: 3vh;
+}
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    display: none;
 }
 }
