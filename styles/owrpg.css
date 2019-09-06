@@ -387,7 +387,7 @@ iframe {
     border-radius: 0;
     font-size: 1vh;
 }
-.small-left, label, p {
+.small-left, label, p, .resume {
     font-size: 1vh;
 }
 .profile {
