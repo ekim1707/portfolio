@@ -563,6 +563,9 @@ li {
 .credit-container, .side-col {
     font-size: 4vh;
 }
+.credit-img {
+    display: none;
+}
 .side-col {
     width: 100%;
 }
