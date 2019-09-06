@@ -507,6 +507,10 @@ li {
 .first-col {
     border: 10px solid whitesmoke;
 }
+.portfolio-nav {
+    border: 0;
+    background: white;
+}
 .imp-links {
     width: 15px;
     height: 15px;
