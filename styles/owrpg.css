@@ -498,7 +498,7 @@ li {
 }
 
 
-@media screen and (max-height: 500px) and (orientation: landscape) {
+@media screen and (max-height: 550px) and (orientation: landscape) {
 .main-container {
     overflow: hidden;
 }
