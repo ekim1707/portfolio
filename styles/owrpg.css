@@ -132,13 +132,13 @@ iframe {
     height: 90px;
 }
 #python-img, #jquery-img {
-    width: 30%;
+    width: 180px;
 }
 #flexbox-img, #react-img {
-    width: 17.5%;
+    width: 90px;
 }
 #node-img {
-    width: 60%;
+    width: 240px;
 }
 }
 
