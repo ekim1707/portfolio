@@ -519,6 +519,7 @@ li {
 .imp-links {
     width: 15px;
     height: 15px;
+    margin: .2vw;
 }
 .projects {
     padding: 4px;
