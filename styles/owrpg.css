@@ -500,7 +500,7 @@ li {
 
 @media screen and (max-height: 550px) and (orientation: landscape) {
 .main-container {
-    overflow: hidden;
+    height: 84vh;
 }
 .profile {
     display: none;
@@ -510,7 +510,7 @@ li {
 }
 .small-left {
     flex-flow: column wrap;
-    justify-content: flex-start;
+    justify-content: stretch;
     overflow: none;
 }
 .center {
