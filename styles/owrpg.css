@@ -66,6 +66,9 @@
 
 
 @media screen and (max-width: 1400px) and (orientation: landscape) {
+.flex-container {
+    height: 85vh;
+}
 .main-container {
     max-width: 100%;
     max-height: 100%;
@@ -74,10 +77,11 @@
     height: 100%;
 }
 .small-left, label, p {
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 .small-left {
     width: 35%;
+    overflow: hidden;
 }
 .center {
     display: none;
@@ -95,8 +99,25 @@
 .credit-container, .side-col {
     font-size: 2vh;
 }
+.credit-container {
+    justify-content: space-evenly;
+}
+.top-row {
+    height: 55%;
+}
+.bottom-row {
+    height: 35%;
+}
 iframe {
-    width: 90%;
+    width: 80%;
+    height: 100%;
+}
+.iframe {
+    align-items: center;
+    height: 50%;
+}
+.title {
+    font-size: 6vh;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 100%;
@@ -104,6 +125,9 @@ iframe {
 }
 
 @media screen and (max-width: 1100px) and (orientation: portrait) {
+.flex-container {
+    height: 84vh;
+}
 .small-container {
     width: 97%;
 }
@@ -122,20 +146,25 @@ iframe {
 }
 .small-left {
     width: 50%;
-    height: 48%;
+    height: 50%;
 }
 .center {
     width: 50%;
-    height: 48%;
+    height: 50%;
+    margin: 0;
     font-size: 1vh;
 }
 .small-right {
     width: 100%;
-    height: 48%;
+    height: 50%;
 }
 .about {
+    height: 100%;
     flex-flow: row wrap;
     overflow: hidden;
+}
+.credit, .projone, .projtwo, .projthree, .owrpg {
+    height: 100%;
 }
 .credit-img {
     width: 100%;
@@ -143,12 +172,28 @@ iframe {
 .credit-container, .side-col {
     font-size: 2vh;
 }
+.credit-container {
+    justify-content: space-evenly;
+}
+.top-row {
+    height: 55%;
+}
+.bottom-row {
+    height: 35%;
+}
 iframe {
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 70%;
+}
+.iframe {
+    align-items: center;
+    height: 50%;
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 100%;
+}
+.title {
+    font-size: 4vh;
 }
 }
 
