@@ -499,14 +499,18 @@ li {
 
 
 @media screen and (max-height: 550px) and (orientation: landscape) {
-.main-container {
+.flex-container {
     height: 84vh;
+}
+.main-container {
+    max-width: 100%;
+    max-height: 100%;
+}
+.about, .credit, .projone, .projtwo, .projthree, .owrpg {
+    height: 100%;
 }
 .profile {
     display: none;
-}
-.about, .small-container {
-    overflow-y: scroll;
 }
 .small-left {
     flex-flow: column wrap;
@@ -521,7 +525,17 @@ li {
     margin: 2px;
     overflow-y: scroll;
 }
+.credit-container, .side-col {
+    font-size: 2vh;
+}
+.credit-container {
+    justify-content: space-evenly;
+}
+.credit-img {
+    display: none;
+}
 .first-col {
+    height: 100%;
     border: 10px solid whitesmoke;
     background: white;
 }
