@@ -479,13 +479,13 @@ li {
 }
 #owrpg {
     width: 75px;
-    height: 10px;
+    height: 15px;
 }
 .first-col {
     width: 100px;
 }
 .projects {
-    padding: 5px;
+    padding: 0;
 }
 }
 
