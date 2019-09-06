@@ -369,6 +369,7 @@ li {
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
 .small-left {
+    padding: 5px;
     overflow: hidden;
 }
 .credit {
