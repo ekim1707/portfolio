@@ -159,9 +159,14 @@ iframe {
     font-size: 1vh;
 }
 .small-left {
+    flex-flow: column wrap;
     width: 50%;
     height: 47%;
     overflow: hidden;
+}
+.imp-links {
+    width: 15px;
+    height: 15px;
 }
 .center {
     width: 50%;
