@@ -498,15 +498,6 @@ li {
 }
 
 @media screen and (max-height: 550px) and (orientation: landscape) {
-.projects {
-    padding: 4px;
-}
-.first-col {
-    height: 100%;
-}
-}
-
-@media screen and (min-width: 900px) and (max-height: 550px) and (orientation: landscape) {
 .main-container {
     max-width: 100%;
     max-height: 100%;
@@ -594,5 +585,8 @@ iframe {
 }
 #side-col-img {
     display: none;
+}
+@media and (min-width: 900px) and (orientation: landscape) {
+
 }
 }
