@@ -158,7 +158,7 @@ iframe {
     width: 115px;
 }
 .small-left, p, label, .resume {
-    font-size: 1vh;
+    font-size: 2vh;
 }
 .small-left {
     flex-flow: column wrap;
