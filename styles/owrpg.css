@@ -196,14 +196,14 @@ iframe {
 .small-left {
     flex-flow: column wrap;
     justify-content: flex-start;
-    width: 40%;
+    width: 50%;
     overflow: hidden;
 }
 .center {
     display: none;
 }
 .small-right {
-    width: 60%;
+    width: 50%;
 }
 .imp-links {
     height: 15px;
@@ -283,7 +283,7 @@ iframe {
 }
 .small-left {
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: 50%;
     height: 55%;
     overflow: hidden;
