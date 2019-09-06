@@ -463,10 +463,6 @@ li {
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     height: 100%;
 }
-#projone, #projtwo, #projthree, #owrpg {
-    width: 75%;
-    height: 75%;
-}
 }
 
 @media screen and (max-width: 350px) and (orientation: portrait) {
