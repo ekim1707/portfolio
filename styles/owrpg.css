@@ -1,3 +1,4 @@
+
 .owrpg {
     flex-grow: 2;
     display: flex;
@@ -156,7 +157,7 @@ iframe {
 .portfolio-nav {
     width: 115px;
 }
-.small-left, label, p, resume {
+.small-left, p {
     font-size: 1vh;
 }
 .small-left {
@@ -494,5 +495,29 @@ li {
 }
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     display: none;
+}
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+.profile {
+    display: none;
+}
+.small-left {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.first-col {
+    border: 10px solid whitesmoke;
+    background: white;
+}
+.imp-links {
+    width: 15px;
+    height: 15px;
+}
+.projects {
+    padding: 4px;
+}
+.skills-row {
+    font-size: 3vh;
 }
 }
