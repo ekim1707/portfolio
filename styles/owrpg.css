@@ -533,4 +533,7 @@ li {
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     display: none;
 }
+.small-left {
+    padding: 10px;
+}
 }
