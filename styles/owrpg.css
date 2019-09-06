@@ -509,9 +509,13 @@ li {
     flex-flow: column wrap;
     justify-content: flex-start;
 }
+.center {
+    overflow-y: scroll;
+}
 .small-right {
     justify-content: stretch;
     margin: 2px;
+    overflow-y: scroll;
 }
 .first-col {
     border: 10px solid whitesmoke;
