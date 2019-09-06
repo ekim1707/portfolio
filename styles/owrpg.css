@@ -160,13 +160,14 @@ iframe {
 }
 .small-left {
     flex-flow: column wrap;
+    justify-content: flex-start;
     width: 50%;
     height: 47%;
     overflow: hidden;
 }
 .imp-links {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 .center {
     width: 50%;
