@@ -197,6 +197,7 @@ iframe {
     flex-flow: column wrap;
     justify-content: flex-start;
     width: 50%;
+    padding: 10px;
     overflow: hidden;
 }
 .center {
@@ -227,6 +228,7 @@ iframe {
     display: none;
 }
 .skills-row {
+    font-size: 1vh;
     justify-content: center;
 }
 }
