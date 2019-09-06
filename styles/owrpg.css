@@ -96,6 +96,7 @@
     display: none;
 }
 .small-right {
+    justify-content: stretch;
     width: 65%;
 }
 .about, .credit, .projone, .projtwo, .projthree, .owrpg {
@@ -128,18 +129,12 @@ iframe {
 .title {
     font-size: 6vh;
 }
-#python-img, #jquery-img, #flexbox-img, #react-img  {
-    height: 90px;
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    display: none;
 }
-#python-img, #jquery-img {
-    width: 180px;
-}
-#flexbox-img, #react-img {
-    width: 90px;
-}
-#node-img {
-    width: 200px;
-    height: 120px;
+.skills-row {
+    flex-grow: 1;
+    justify-content: center;
 }
 }
 
@@ -165,17 +160,18 @@ iframe {
 }
 .small-left {
     width: 50%;
-    height: 50%;
+    height: 48%;
 }
 .center {
     width: 50%;
-    height: 50%;
+    height: 48%;
     margin: 0;
     font-size: 1vh;
 }
 .small-right {
+    justify-content: stretch;
     width: 100%;
-    height: 50%;
+    height: 48%;
 }
 .about {
     height: 100%;
@@ -208,18 +204,12 @@ iframe {
     align-items: center;
     height: 50%;
 }
-#python-img, #jquery-img, #flexbox-img, #react-img  {
-    height: 90px;
+#python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
+    display: none;
 }
-#python-img, #jquery-img {
-    width: 180px;
-}
-#flexbox-img, #react-img {
-    width: 90px;
-}
-#node-img {
-    width: 200px;
-    height: 120px;
+.skills-row {
+    flex-grow: 1;
+    justify-content: center;
 }
 .title {
     font-size: 4vh;
