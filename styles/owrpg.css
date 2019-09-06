@@ -571,7 +571,6 @@ li {
     width: 100%;
 }
 #side-col-img {
-    width: 50%;
-    height: 80%;
+    display: none;
 }
 }
