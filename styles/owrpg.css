@@ -314,6 +314,9 @@ iframe {
 #side-col-img {
     display: none;
 }
+.projects {
+    padding: 4px;
+}
 }
 
 @media screen and (max-width: 600px) and (orientation: landscape) {
