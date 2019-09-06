@@ -195,13 +195,14 @@ iframe {
 }
 .small-left {
     flex-flow: column wrap;
-    width: 35%;
+    justify-content: flex-start;
+    width: 40%;
 }
 .center {
     display: none;
 }
 .small-right {
-    width: 65%;
+    width: 60%;
 }
 .imp-links {
     height: 15px;
