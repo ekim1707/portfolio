@@ -87,7 +87,7 @@
     height: 100%;
 }
 .small-left, label, p, .resume {
-    font-size: 2vh;
+    font-size: 1vh;
 }
 .small-left {
     width: 35%;
