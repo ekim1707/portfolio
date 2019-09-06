@@ -269,7 +269,7 @@ iframe {
     display: none;
 }
 .small-right {
-    justify-content: center;
+    justify-content: stretch;
     width: 50%;
 }
 .imp-links {
@@ -294,9 +294,9 @@ iframe {
     display: none;
 }
 .skills-row {
+    flex-grow: 1;
     font-size: 2.5vh;
     justify-content: center;
-    padding: 5px;
 }
 .title {
     font-size: 6vh;
@@ -390,12 +390,12 @@ iframe {
 }
 .small-right{
     flex-flow: column nowrap;
+    justify-content: stretch;
     width: 100%;
     height: 40%;
 }
 .skills-row {
-    margin: 2px;
-    padding: 5px;
+    flex-grow: 1;
     font-size: 1vh;
     justify-content: center;
 }
