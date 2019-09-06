@@ -553,4 +553,25 @@ li {
 #python-img, #jquery-img, #flexbox-img, #react-img, #node-img  {
     display: none;
 }
+.top-row, .bottom-row {
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+}
+.bottom-row {
+    width: 40%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.credit-container, .side-col {
+    font-size: 2vh;
+}
+.side-col {
+    width: 100%;
+}
+#side-col-img {
+    width: 50%;
+    height: 80%;
+}
 }
