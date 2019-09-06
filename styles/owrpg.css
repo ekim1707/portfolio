@@ -506,6 +506,9 @@ li {
     flex-flow: column wrap;
     justify-content: flex-start;
 }
+.small-right {
+    justify-content: stretch;
+}
 .first-col {
     border: 10px solid whitesmoke;
     background: white;
@@ -518,6 +521,8 @@ li {
     padding: 4px;
 }
 .skills-row {
+    flex-grow: 1;
+    padding: 2px;
     justify-content: center;
     font-size: 3vh;
 }
