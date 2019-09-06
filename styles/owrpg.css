@@ -451,6 +451,7 @@ li {
     overflow: hidden;
 }
 .portfolio-nav {
+    width: 100px;
     border: none;
     overflow: hidden;
 }
