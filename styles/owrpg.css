@@ -451,6 +451,7 @@ li {
     overflow: hidden;
 }
 .portfolio-nav {
+    border: none;
     overflow: hidden;
 }
 .credit {
