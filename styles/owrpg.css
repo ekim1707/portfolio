@@ -432,8 +432,8 @@ iframe {
     display: none;
 }
 .inprogress-images {
-    width: 140%;
-    height: 100%;
+    width: 100%;
+    height: 75%;
 }
 iframe {
     height: 80%;
