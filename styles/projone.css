@@ -11,33 +11,14 @@
     height: 87vh;
     padding: 20px;
     border-radius: 25px;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 .inprogress-images {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: stretch;
-    align-items: center;
+    display: block;
+    width: 70%;
     height: 70%;
-}
-.inprogress-row {
-    flex-grow: 1;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 45%;
-    margin: 5px;
-}
-#inprogress-a {
-    width: 100%;
-    height: 100%;
+    overflow-y: scroll;
 }
 #inprogress-images {
-    padding: 15px;
-    background: lightgray;
-    border-radius: 10px;
-}
-#inprogress-images:hover {
-    cursor: pointer;
+    
 }
