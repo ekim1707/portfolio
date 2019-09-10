@@ -1,2 +1,2 @@
 # Portfolio site
-This is simply a repo to hold my portfolio website (eugenekimportfolio.com).
+This is simply a repo to hold my portfolio website (www.eugenekimportfolio.com).
