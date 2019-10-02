@@ -1,21 +1,21 @@
 .projone {
-    flex-grow: 2;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     border-radius: 15px;
-    font-size: 2vh;
     font-weight: bolder;
-    height: 87vh;
-    padding: 20px;
-    border-radius: 25px;
-    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background: white;
+    overflow: auto;
 }
 .inprogress-images {
-    display: block;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
     width: 70%;
-    height: 70%;
+    height: 98%;
     overflow-y: scroll;
 }

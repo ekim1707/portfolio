@@ -16,54 +16,54 @@
     <title>Eugene Kim's Portfolio</title>
 </head>
 <body>
+    <div class="container">
     <div class="flex-container">
         <div class="first-col">
-            <div class="profile"></div>
+            <div class="profile">
+                <img class="profile-image" src="./images/profile.JPG" width="100%" height="100%">
+            </div>
             <div class="portfolio-nav red">
                 <div class="projects" id="projone">
-                    <img src="/images/icon-logo.png" width="50px" height="60px" alt="" id="projone">
+                    <img src="./images/icon-logo.png" width="50%" height="auto" alt="" id="projone">
                 </div>
                 <div class="projects" id="projtwo">
-                    <img src="/images/widow.png" width="50px" height="50px" alt="" id="projtwo">
+                    <img src="./images/widow.png" width="50%" height="auto" alt="" id="projtwo">
                 </div>
                 <div class="projects" id="projthree">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Crystal_Project_Documentinfo.png" width="50px" height="50px" alt="" id="projthree">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Crystal_Project_Documentinfo.png" width="50%" height="auto" alt="" id="projthree">
                 </div>
                 <div class="projects img-split" id="owrpg">
-                    <img src="/images/Overwatch_text_logo.svg" width="85px" height="15px" alt="" id="owrpg">
+                    <img src="https://gmhslasso.org/wp-content/uploads/2016/05/Overwatch-logo.png" width="100%" height="auto" alt="" id="owrpg">
                     RPG
                 </div>
             </div>
         </div>
         <div class="second-col">
             <div class="personal-nav">
-                <ul>
-                    <li class="actual-red" id="first">ABOUT ME</li>
-                    <li id="fifth">CREDITS</li>
-                </ul>
+                <div class="personal-nav-headers actual-red" id="first">ABOUT ME</div>
+                <div class="personal-nav-headers" id="fifth">CREDITS</div>
             </div>
             <div class="main-container">
                 <div class="small-container">
                     <div class="about">
                         <div class="small-left">
-                            <div class="info">
-                                <label>NAME:</label><br>
-                                <p>Eugene Kim</p><br>
-                                <label>BIRTHDATE:</label><br>
-                                <p>June 20, 1985</p><br>
-                                <label>BORN:</label><br>
-                                <p>Rochester, NY</p><br>
-                                <label>CURRENT LOCATION:</label><br>
-                                <p>Alpharetta, GA</p><br>
-                                <label>EMAIL:</label><br><p>ekim1707@gmail.com</p>
-                            </div>
-                            <div class="resume">
-                                <a class="resume" href="/images/portfolioresume.pdf" download>Resume.pdf</a>
-                            </div>
+                            <ul>
+                                <li class="dodgerblue">NAME:</li>
+                                <li>Eugene Kim</li>
+                                <li class="dodgerblue">BIRTHDATE:</li>
+                                <li>June 20, 1985</li>
+                                <li class="dodgerblue">BORN:</li>
+                                <li>Rochester, NY</li>
+                                <li class="dodgerblue">CURRENT LOCATION</li>
+                                <li>Johns Creek, GA</li>
+                                <li class="dodgerblue">EMAIL</li>
+                                <li>ekim1707@gmail.com</li>
+                            </ul>
                             <div class="links">
-                                <a class="imp-links" href="https://github.com/ekim1707/" id="icon-github"></a>
-                                <a class="imp-links" href="https://www.linkedin.com/in/eugene-kim-1707" id="icon-linkedin"></a>
-                                <a class="imp-links" href="https://www.facebook.com/eugene.kim.146" id="icon-facebook"></a>
+                                <a class="imp-links" href="https://github.com/ekim1707/" target="_blank"><img src="./images/icon-github.svg" width="100%" height="auto"></a>
+                                <a class="imp-links" href="https://www.linkedin.com/in/eugene-kim-1707" target="_blank"><img src="./images/icon-linkedin.png" width="100%" height="auto"></a>
+                                <a class="imp-links" href="https://www.facebook.com/eugene.kim.146" target="_blank"><img src="./images/icon-facebook.png" width="100%" height="auto"></a>
+                                <a class="imp-links" href="/images/portfolioresume.pdf" download><img src="./images/resume.png" width="100%" height="auto"></a>
                             </div>
                         </div>
                         <div class="center">
@@ -89,117 +89,207 @@
                             </div>
                             <div class="skills-row">
                                 Python
-                                <img src="/images/Python3.svg.png" class="images" width="60%" height="180px" alt="" id="python-img">
+                                <img src="./images/Python3.svg.png" class="images" width="auto" height="100%" alt="" id="python-img">
                             </div>
                             <div class="skills-row">
-                                <img src="/images/flexbox.png" class="images" width="35%" height="180px" alt="" id="flexbox-img">
-                                HTML<br>CSS
+                                <img src="./images/flexbox.png" class="images" width="auto" height="100%" alt="" id="flexbox-img">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
                             </div>
                             <div class="skills-row">
-                                JavaScript<br>jQuery
-                                <img src="/images/jquery.png" class="images" width="60%" height="180px" alt="" id="jquery-img">
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                                <img src="./images/jquery.png" class="images" width="auto" height="100%" alt="" id="jquery-img">
                             </div>
                             <div class="skills-row">
-                                <img src="/images/node.svg.png" class="images" width="75%" height="180px" alt="" id="node-img">
-                                PostgreSQL<br>Node
+                                <img src="./images/node.svg.png" class="images" width="50%" height="100%" alt="" id="node-img">
+                                <ul>
+                                    <li>PostgreSQL</li>
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                </ul>
                             </div>
-                            <div class="skills-row">
-                                React
-                                <img src="/images/react.png" class="images" width="35%" height="180px" alt="" id="react-img">
+                            <div class="skills-row last-row">
+                                <ul>
+                                    <li>React.js</li>
+                                    <li>Redux</li>
+                                </ul>
+                                <img src="./images/react.png" class="images" width="auto" height="100%" alt="" id="react-img">
                             </div>
                         </div>
                     </div>
                     <div class="credit hidden">
-                        <div class="credit-container">
-                            <div class="top-row">
-                                Special thanks to my wife Tiffany Kim...
-                                <div class="credit-img"></div>
-                                ...who is the driving engine behind this entire endeavor and has sacrificed so much for
-                                me along the way out of love.<br><br>
-                                Along with my wonderful parents and my sister, Eunice.
+                        <div class="top-row">
+                            <li>Special thanks to my wife Tiffany Kim...</li>
+                            <div class="credit-img"></div>
+                            <li>...who is the driving engine behind this entire endeavor and has sacrificed so much for
+                            me along the way out of love.</li>
+                            <li>Along with my wonderful parents and my sister, Eunice.</li>
+                        </div>
+                        <div class="bottom-row">
+                            <div class="side-col">
+                                <img src="./images/DC.png" width="auto" height="30%" alt="" id="side-col-img">
                             </div>
-                            <div class="bottom-row">
-                                <div class="side-col">
-                                    <img src="/images/DC.png" width="200vw" height="100vh" alt="" id="side-col-img">
-                                </div>
-                                <div class="side-col">
-                                    <div class="margin-control">As well as... our Amazing instructors:</div>
-                                    <div class="margin-control">Gary Storey<br>
-                                    Chris Aquino<br>
-                                    Rob Bunch<br>
-                                    Jonathan Ray<br>
-                                    Tony DiRusso<br></div>
-                                    <div class="margin-control">And the colleagues who got me through at least this far:</div>
-                                    <div class="margin-control">Charles, JoeJoe, Sean, Washington, and John N.</div>
-                                </div>
+                            <div class="side-col">
+                                <div>As well as... our amazing instructors:</div>
+                                    <li>Gary Storey</li>
+                                    <li>Chris Aquino</li>
+                                    <li>Rob Bunch</li>
+                                    <li>Jonathan Ray</li>
+                                    <li>Tony DiRusso</li>
+                                <div>And the colleagues who got me through at least this far:</div>
+                                <div>Charles, JoeJoe, Sean, Washington, and John N.</div>
                             </div>
                         </div>
                     </div>
                     <div class="projone hidden">
                         <div class="title actual-red">
-                            featured
+                            <div class="title-background">
+                                PeachtreeData
+                            </div>
                         </div>
-                        <div class="inprogress-images">
-                            <img src="./images/original1 JS only.png" alt="" width="100%" height="100%" id="inprogress-images">
-                            <img src="./images/original2 JS only.png" alt="" width="100%" height="100%" id="inprogress-images">
-                            <img src="./images/homepage Node.png" alt="" width="100%" height="100%" id="inprogress-images">
-                            <img src="./images/loginpage Node.png" alt="" width="100%" height="100%" id="inprogress-images">
-                            <img src="./images/userpage Node.png" alt="" width="100%" height="100%" id="inprogress-images">
-                        </div>
-                        <div class="description">
-                            Being built with: HTML, CSS, JavaScript, Express, and React.js<br>
-                            The first two images show the project as it initially was written with just pure
-                            JavaScript. The last three images show the project rewritten with Node. The React
-                            version, which is in progress, uses the same styling as the Node version.
-                            <a href="https://github.com/ekim1707/featuredportfolioproject" id="featured-link">Featured Github Link</a>
+                        <div class="project-body-row">
+                            <div class="inprogress-images">
+                                <img src="./images/original1 JS only.png" alt="" width="95%" height="auto" id="inprogress-images">
+                                <img src="./images/original2 JS only.png" alt="" width="95%" height="auto" id="inprogress-images">
+                                <img src="./images/homepage Node.png" alt="" width="95%" height="auto" id="inprogress-images">
+                                <img src="./images/loginpage Node.png" alt="" width="95%" height="auto" id="inprogress-images">
+                                <img src="./images/userpage Node.png" alt="" width="95%" height="auto" id="inprogress-images">
+                            </div>
+                            <div class="description-container">
+                                <div class="description-box">
+                                    <ul>
+                                        <li class="actual-red">BEING BUILT WITH:</li>
+                                        <li class="actual-red">HTML, CSS, JavaScript, Express, and React.js</li>
+                                        <li>The first two images show the project as it initially was written with just pure
+                                        JavaScript. The last three images show the project rewritten with Node. The React
+                                        version, which is in progress, uses the same styling as the Node version.</li>
+                                        <li class="project-links">
+                                            <div class="more actual-red">
+                                                MORE:
+                                            </div>
+                                            <div class="project-links-row">
+                                                <a href="https://github.com/ekim1707/featuredportfolioproject" target="_blank">
+                                                    <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="projtwo hidden">
                         <div class="title actual-red">
-                            Widowsite
+                            <div class="title-background">
+                                Widowsite
+                            </div>
                         </div>
-                        <iframe width="65%" height="100%" src="https://www.youtube.com/embed/fxX90aPSra8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="description">
-                            Built with: HTML, CSS (especially Materialize), JavaScript, and React.js<br>
-                            This is my first React.js project, and it is simply an "Wiki"-type website for the video game Overwatch,
-                            featuring my favorite hero, Widowmaker.
-                            <a href="https://widowsite.eugenekimportfolio.com/" id="instaid-link">Widow Site</a>
-                            <a href="https://github.com/ekim1707/DC-2019-Backend-Project" id="instaid-link">Widowsite Github Link</a>
+                        <div class="project-body-row">
+                            <div class="iframe-container">
+                                <iframe class="iframe-management" src="https://www.youtube.com/embed/fxX90aPSra8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="description-container">
+                                <div class="description-box">
+                                    <ul>
+                                        <li class="actual-red">BUILT WITH:</li>
+                                        <li class="actual-red">HTML, CSS (especially Materialize), JavaScript, and React.js</li>
+                                        <li>This is my first React.js project, and it is simply an "Wiki"-type website for the video game Overwatch,
+                                        featuring my favorite hero, Widowmaker.</li>
+                                        <li class="project-links">
+                                            <div class="more actual-red">
+                                                MORE:
+                                            </div>
+                                            <div class="project-links-row">
+                                                <a href="https://widowsite.eugenekimportfolio.com/" target="_blank">
+                                                    <img width="auto" height="100%" src="./images/entersite.jpg">
+                                                </a>
+                                                <a href="https://github.com/ekim1707/widowsite" target="_blank">
+                                                    <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="projthree hidden">
                         <div class="title actual-red">
-                            Insta.id
+                            <div class="title-background">
+                                Insta.id
+                            </div>
                         </div>
-                        <div class="iframe">
-                            <iframe width="65%" height="100%" src="https://www.youtube.com/embed/TUDsettSCaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="description">
-                            Built with: HTML, CSS, JavaScript, jQuery, Node.js, Express, and ejs<br>
-                            Once entered into a company's database, employees can log into mobile and access
-                            a QR Code which contains ID information that any other smart phone camera can read.
-                            <a href="https://instaid.eugenekimportfolio.com" id="instaid-link">Insta.id Site</a>
-                            <a href="https://github.com/ekim1707/DC-2019-Backend-Project" id="instaid-link">Insta.id Github Link</a>
+                        <div class="project-body-row">
+                            <div class="iframe-container">
+                                <iframe class="iframe-management" src="https://www.youtube.com/embed/TUDsettSCaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="description-container">
+                                <div class="description-box">
+                                    <ul>
+                                        <li class="actual-red">BUILT WITH:</li>
+                                        <li class="actual-red">HTML, CSS, JavaScript, jQuery, Node.js, Express, and ejs</li>
+                                        <li>Once entered into a company's database, employees can log into mobile and access
+                                        a QR Code which contains ID information that any other smart phone camera can read.</li>
+                                        <li class="project-links">
+                                            <div class="more actual-red">
+                                                MORE:
+                                            </div>
+                                            <div class="project-links-row">
+                                                <a href="https://instaid.eugenekimportfolio.com" target="_blank">
+                                                    <img width="auto" height="100%" src="./images/entersite.jpg">
+                                                </a>
+                                                <a href="https://github.com/ekim1707/DC-2019-Backend-Project" target="_blank">
+                                                    <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="owrpg hidden">
                         <div class="title actual-red">
-                            Overwatch RPG
+                            <div class="title-background">
+                                Overwatch RPG
+                            </div>
                         </div>
-                        <div class="iframe">
-                            <iframe width="65%" height="100%" src="https://www.youtube.com/embed/QDMF8eHOnkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        <div class="description">
-                            Built with: Python<br>
-                            This was originally a sample Python app that quickly turned into a learning
-                            opportunity. I was able to dabble and challenge myself to create an improved,
-                            more complex version that is playable within Terminal.
-                            <a href="https://github.com/ekim1707/owrpg" id="owrpg-link">OWRPG Github Link</a>
+                        <div class="project-body-row">
+                            <div class="iframe-container">
+                                <iframe class="iframe-management" src="https://www.youtube.com/embed/QDMF8eHOnkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="description-container">
+                                <div class="description-box">
+                                    <ul>
+                                        <li class="actual-red">BUILT WITH:</li>
+                                        <li class="actual-red">Python</li>
+                                        <li>This was originally a sample Python app that quickly turned into a learning
+                                        opportunity. I was able to dabble and challenge myself to create an improved,
+                                        more complex version that is playable within Terminal.</li>
+                                        <li class="project-links">
+                                            <div class="more actual-red">
+                                                MORE:
+                                            </div>
+                                            <div class="project-links-row">
+                                                <a href="https://github.com/ekim1707/owrpg" target="_blank">
+                                                    <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 <script>

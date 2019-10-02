@@ -2,23 +2,28 @@
     box-sizing: border-box;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgb(171, 219, 238), rgb(12, 174, 238));
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(171, 219, 238), rgb(12, 174, 238));
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .flex-container {
     display: flex;
-    height: 96vh;
     flex-flow: row nowrap;
-    justify-content: stretch;
-    box-sizing: content-box;
-    border-radius: 25px 25px 0 0;
+    align-items: flex-end;
+    width: 96%;
+    height: 96%;
     border-bottom: none;
     border-left: none;
     /* opacity */
@@ -27,91 +32,93 @@ html {
 .first-col {
     display: flex;
     flex-flow: column nowrap;
-    width: 160px;
+    width: 15%;
+    height: 100%;
     background: transparent;
     justify-content: stretch;
     align-items: center;
 }
 .profile {
-    height: 160px;
-    width: 160px;
-    background-image: url('/images/newprofilepic.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
     border-radius: 15px;
-    margin-top: -10px;
     border: 20px solid white;
+    background: white;
+}
+.profile-image {
+    border-radius: 5px;
 }
 .portfolio-nav {
-    flex-grow: 1;
     display: flex;
-    width: 120px;
-    color: dodgerblue;
-    font-weight: bolder;
-    text-align: center;
     flex-flow: column nowrap;
     justify-content: space-evenly;
     align-items: center;
+    width: 80%;
+    height: 75%;
+    color: dodgerblue;
+    font-weight: bolder;
+    text-align: center;
     background: white;
     border: 20px transparent;
+}
+.projects {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    border: 10px solid white;
+    border-radius: 25px;
 }
 .img-split {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 25px;
     color: rgb(66, 65, 65);
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .second-col {
-    flex-grow: 1;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: stretch;
+    width: 85%;
+    height: 98%;
+    border-top: 30px solid white;
+    border-right: 30px solid white;
+    border-radius: 0 50px 0 0;
 }
 .personal-nav {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: stretch;
-    margin-top: 2px;
-    padding: 5px;
-    height: 25px;
-    border-radius: 0 50px 0 0;
-    z-index: 2;
-}
-ul {
-    display: flex;
+    position: relative;
     flex-flow: row nowrap;
-    list-style: none;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: stretch;
-    margin: 0;
-    padding: 0;
+    padding: 5px;
+    margin-top: -30px;
+    width: 100%;
+    height: 30px;
 }
-li {
-    flex-grow: 1;
+.personal-nav-headers {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 100%;
     color: gray;
     font-weight: bolder;
     transition: 0.5s;
     border-radius: 0 25px 0 0;
 }
-li:hover {
+.personal-nav-headers:hover {
     cursor: pointer;
     font-size: 18px;
     color: rgb(248, 103, 103);
     transition: 0.5s;
-}
-.projects {
-    padding: 10px;
-    border-radius: 15px;
 }
 .projects:hover {
     cursor: pointer;
@@ -127,28 +134,17 @@ li:hover {
     }
 } */
 .main-container {
-    flex-grow: 2;
     display: flex;
-    height: 80vh;
-    border: 25px solid white;
-    border-left: 0;
-    border-bottom: 0;
-    border-radius: 0 50px 0 0;
-    margin-top: -25px;
-    justify-content: stretch;
-    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     overflow-y: auto;
-    z-index: 1;
 }
 .small-container {
-    flex-grow: 3;
     display: flex;
     background: white;
-    justify-content: stretch;
-    align-items: stretch;
-    border-radius: 25px;
-    margin: 20px;
-}
-#projthree {
+    width: 95%;
+    height: 95%;
     border-radius: 25px;
 }
