@@ -1,7 +1,7 @@
 .projtwo {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 15px;
     font-weight: bolder;
