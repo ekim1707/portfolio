@@ -22,16 +22,16 @@
             <div class="profile"></div>
             <div class="portfolio-nav red">
                 <div class="projects" id="projone">
-                    <img src="./images/icon-logo.png" width="50%" height="auto" alt="" id="projone">
+                    <img src="./images/icon-logo.png" width="50%" height="auto" alt="">
                 </div>
                 <div class="projects" id="projtwo">
-                    <img src="./images/widow.png" width="50%" height="auto" alt="" id="projtwo">
+                    <img src="./images/widow.png" width="50%" height="auto" alt="">
                 </div>
                 <div class="projects" id="projthree">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Crystal_Project_Documentinfo.png" width="50%" height="auto" alt="" id="projthree">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Crystal_Project_Documentinfo.png" width="50%" height="auto" alt="">
                 </div>
-                <div class="projects img-split" id="owrpg">
-                    <img src="https://gmhslasso.org/wp-content/uploads/2016/05/Overwatch-logo.png" width="100%" height="auto" alt="" id="owrpg">
+                <div class="projects" id="owrpg">
+                    <img src="https://gmhslasso.org/wp-content/uploads/2016/05/Overwatch-logo.png" width="50%" height="auto" alt="">
                     RPG
                 </div>
             </div>
@@ -289,9 +289,26 @@
 <script>
 $(document).ready(function () {
 
+    $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').mouseenter((event) => {
+        
+        const el = event.target;
+        if (!el.classList.contains('background-toggle')) {
+            el.classList.add('blinking');
+        }
+
+    })
+
+    $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').mouseleave((event) => {
+        
+        const el = event.target;
+        el.classList.remove('blinking');
+
+    })
+
     const controlClick = (e) => {
 
         const el = e.target;
+        el.classList.remove('blinking');
             
         if (el.id === 'first') {
             $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
