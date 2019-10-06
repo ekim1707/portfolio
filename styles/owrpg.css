@@ -224,7 +224,7 @@ hr {
     }
     .description-container > ul {
         flex-flow: row wrap;
-        font-size: 1.45em;
+        font-size: 1.3em;
     }
     .main-row-top {
         width: 100%;
@@ -488,7 +488,7 @@ hr {
         font-size: 1.5em;
     }
     .description-container > ul {
-        font-size: 1em;
+        font-size: .8em;
     }
 
 }
