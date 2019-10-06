@@ -829,7 +829,7 @@ hr {
         font-size: 1em;
     }
     .description-container > ul, .main-row-top, .main-row-middle, .more {
-        font-size: .9em;
+        font-size: .8em;
     }
     .main-row-top > ul {
         justify-content: space-between;
