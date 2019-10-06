@@ -45,34 +45,37 @@
     text-align: center;
     width: 28%;
     height: 98%;
+    padding: 5px;
     background: whitesmoke;
     border-radius: 10px;
 }
 .description-container > ul {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 0;
+    font-size: 1.15em;
 }
-.description-container > ul > li {
-    width: 85%;
+.main-row-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+}
+.main-row-middle {
+    width: 100%;
+    height: 45%;
 }
 .description-container > ul > li > ul {
-    margin: 0;
-    padding: 0;
+    margin: 0 25px 0 25px;
+    padding: 0px;
 }
 .description-container > ul > li > ul > li {
     list-style: square;
-    font-size: 1em;
     color: rgb(248, 103, 103);
-}
-.font-size-control {
-    font-size: 1.25em;
 }
 .project-links {
     display: flex;
@@ -87,7 +90,6 @@
     align-items: flex-start;
     width: 100%;
     height: 30%;
-    font-size: 1.1em;
 }
 .project-links-row {
     display: flex;
@@ -110,6 +112,11 @@
 .github-icon {
     border-radius: 50px;
     background: white;
+}
+.project-links-row > a:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    animation: bounce 1.2s infinite ease-in-out;
 }
 .resume {
     font-size: 1em;
@@ -135,4 +142,749 @@
 }
 .hidden {
     display: none;
+}
+hr {
+    width: 100%;
+    margin: 0;
+    border: 1px solid lightgray;
+}
+
+@media screen and (max-width: 1400px) and (max-height: 1100px) and (orientation: landscape) {
+
+    .small-left {
+        width: 25%;
+        font-size: 1.5em;
+    }
+    .center {
+        width: 45%;
+        font-size: 1.6em;
+    }
+    .small-right {
+        width: 30%;
+    }
+    .skills-body {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: stretch;
+    }
+    .skills-row {
+        flex-grow: 1;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-size: 1.75em;
+    }
+    .images {
+        display: none;
+    }
+    .credit {
+        font-size: 1.25em;
+    }
+    .top-row {
+        padding: 10px 40px 10px 40px;
+    }
+    .credit-img {
+        width: 100%;
+    }
+    .projone, .projtwo, .projthree, .owrpg {
+        flex-flow: column nowrap;
+    }
+    .project-body-background {
+        width: 100%;
+        height: 60%;
+    }
+    .projone > .project-body-background > .title {
+        align-items: center;
+        height: 15%;
+    }
+    .inprogress-images {
+        height: 85%;
+    }
+    .title {
+        align-items: center;
+        height: 10%;
+        font-size: 3em;
+    }
+    .iframe-container {
+        justify-content: center;
+        height: 90%;
+    }
+    .description-container {
+        width: 100%;
+        height: 40%;
+    }
+    .description-container > ul {
+        flex-flow: row wrap;
+        font-size: 1.45em;
+    }
+    .main-row-top {
+        width: 100%;
+        height: 45%;
+    }
+    .main-row-top > ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .owrpg > .description-container > ul > li > ul {
+        justify-content: center;
+    }
+    .main-row-top > ul > li {
+        width: 48%;
+    }
+    .main-row-middle {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        padding: 0 10px 0 10px;
+    }
+    .project-links {
+        height: 25%;
+    }
+    .projects > img {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 1100px) and (orientation: portrait) {
+
+    .about {
+        flex-flow: column nowrap;
+    }
+    .small-left {
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 30%;
+    }
+    .small-left > ul {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        padding: 0 20px 20px 20px;
+        font-size: 1.25em;
+    }
+    .small-left > ul > li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        height: 20%;
+    }
+    .links {
+        flex-flow: column nowrap;
+        width: 10%;
+        height: 100%;
+        padding: 15px 10px 15px 10px;
+    }
+    .imp-links {
+        width: 100%;
+        height: 25%;
+        align-items: flex-start;
+    }
+    .center {
+        flex-flow: column nowrap;
+        width: 100%;
+        height: 45%;
+        padding: 0 20px 20px 20px;
+        font-size: 1.85em;
+    }
+    .small-right {
+        width: 100%;
+        height: 25%;
+        padding: 0;
+    }
+    .skills-label {
+        height: 15%;
+        padding: 5px;
+    }
+    .skills-body {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 83%;
+        padding-left: 5px;
+        overflow: hidden;
+    }
+    .skills-row {
+        justify-content: center;
+        width: 20%;
+        height: 100%;
+        margin-right: 5px;
+        font-size: 1.75em;
+    }
+    .images {
+        display: none;
+    }
+    .top-row {
+        justify-content: space-between;
+        font-size: 1.75em;
+        padding: 20px;
+    }
+    .credit-img {
+        width: 95%;
+        height: 50%;
+    }
+    .bottom-row {
+        justify-content: flex-start;
+        font-size: 1.5em;
+    }
+    .projects {
+        height: 15%;
+    }
+    .projects > img {
+        width: 80%;
+        height: auto;
+    }
+    .first-col {
+        background: white;
+        border-radius: 0;
+    }
+    .profile {
+        height: 10%;
+        border-radius: 0;
+        border: 5px solid white;
+    }
+    .portfolio-nav {
+        width: 100%;
+        height: 85%;
+    }
+    .projone, .projtwo, .projthree, .owrpg {
+        flex-flow: column nowrap;
+    }
+    .project-body-background {
+        width: 100%;
+        height: 50%;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .description-container {
+        width: 100%;
+        height: 50%;
+    }
+    .description-container > ul {
+        font-size: 1.5em;
+    }
+    .main-row-top {
+        width: 100%;
+        height: 37.5%;
+    }
+    .main-row-top > ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .owrpg > .description-container > ul > li > ul {
+        justify-content: center;
+    }
+    .main-row-top > ul > li {
+        width: 45%;
+    }
+    .main-row-middle {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 37.5%;
+    }
+    .project-links {
+        height: 25%;
+    }
+    .projects > img {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1300px) and (orientation: landscape) {
+
+    .small-left {
+        width: 25%;
+    }
+    .center {
+        width: 45%;
+    }
+    .small-right {
+        width: 30%;
+    }
+    .skills-body {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: stretch;
+    }
+    .skills-row {
+        flex-grow: 1;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-size: 1.75em;
+    }
+    .images {
+        display: none;
+    }
+    .title {
+        font-size: 1.5em;
+    }
+    .description-container > ul {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (orientation:  landscape) {
+
+    .about {
+        flex-flow: column wrap;
+    }
+    .small-left {
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        width: 70%;
+        height: 50%;
+    }
+    .small-left > ul {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        margin: 0;
+        padding: 0 0 0 15px;
+    }
+    .small-left > ul > li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        height: 20%;
+    }
+    .links {
+        justify-content: space-between;
+        width: 95%;
+        height: 20%;
+    }
+    .imp-links {
+        width: 15%;
+    }
+    .imp-links > img {
+        width: auto;
+        height: 100%;
+    }
+    .center {
+        width: 70%;
+        height: 50%;
+    }
+    .main-row-top {
+        height: 42%;
+    }
+    .main-row-middle {
+        height: 38%;
+    }
+
+}
+
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+
+    .center {
+        font-size: 1.15em;
+    }
+    .top-row {
+        font-size: 1em;
+    }
+    .bottom-row {
+        font-size: .75em;
+    }
+    .title {
+        font-size: 2em;
+    }
+    .main-row-top {
+        height: 40%;
+    }
+    .main-row-middle {
+        height: 30%;
+    }
+    .project-links {
+        height: 30%;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+
+    .small-left {
+        font-size: 1em;
+    }
+    .links {
+        padding: 5px;
+    }
+    .center {
+        font-size: 1.3em;
+    }
+    .skills-body {
+        height: 82%;
+    }
+    .skills-row {
+        font-size: 1.3em;
+    }
+    .top-row {
+        font-size: 1.35em;
+    }
+    .bottom-row {
+        font-size: 1em;
+    }
+    .title {
+        font-size: 1.5em;
+    }
+    .description-container > ul, .main-row-top, .main-row-middle, .more {
+        font-size: 1.1em;
+    }
+    .projects {
+        font-size: .3em;
+    }
+
+}
+
+@media screen and (max-width: 830px) and (orientation: landscape) {
+
+    .first-col {
+        border-radius: 10px 10px 0 0;
+        background: white;
+    }
+    .profile {
+        border-radius: 10px;
+        border: 5px solid white;
+    }
+    .portfolio-nav {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .projects {
+        border-radius: 10px;
+        font-size: .3em;
+    }
+    .projects > img {
+        width: auto;
+        height: 75%;
+    }
+    #owrpg > img {
+        height: 70%;
+    }
+    .personal-nav-headers {
+        width: 47%;
+        border-radius: 5px;
+    }
+    .small-left {
+        width: 70%;
+        height: 100%;
+        font-size: 1em;
+    }
+    .small-left > ul {
+        height: 85%;
+    }
+    .links {
+        justify-content: space-between;
+        width: 90%;
+        height: 15%;
+    }
+    .center {
+        display: none;
+    }
+    .small-right {
+        padding: 5px;
+    }
+    .skills-label {
+        border-radius: 10px 10px 0 0;
+        font-size: 1em;
+    }
+    .skills-body {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: stretch;
+        height: 93%;
+        border-radius: 0 0 10px 10px;
+        margin: 0;
+    }
+    .skills-row {
+        flex-grow: 1;
+        height: 5%;
+        border-radius: 0;
+        margin-bottom: 0;
+        padding: 0;
+        font-size: .8em;
+    }
+    .credit {
+        flex-direction: row;
+    }
+    .top-row {
+        width: 80%;
+        height: 100%;
+        padding: 10px;
+        font-size: .8em;
+    }
+    .bottom-row {
+        justify-content: space-between;
+        width: 20%;
+        height: 100%;
+        padding: 10px;
+        font-size: .55em;
+    }
+    .bottom-row-toggle-direction {
+        display: flex;
+        flex-direction: column;
+    }
+    .projone, .projtwo, .projthree, .owrpg {
+        flex-flow: row nowrap;
+    }
+    .project-body-background {
+        width: 70%;
+        height: 98%;
+    }
+    .title {
+        font-size: 1.5em;
+    }
+    .description-container {
+        width: 28%;
+        height: 98%;
+    }
+    .description-container > ul {
+        font-size: .6em;
+    }
+    .main-row-top > ul {
+        flex-flow: column nowrap;
+    }
+    .main-row-top > ul > li {
+        width: 100%;
+    }
+    .main-row-top {
+        height: 40%;
+    }
+    .main-row-middle {
+        height: 40%;
+    }
+    .project-links {
+        height: 20%;
+    }
+
+}
+
+@media screen and (max-width: 460px) and (orientation: portrait) {
+
+    .flex-container {
+        flex-flow: column-reverse nowrap;
+        width: 100%;
+        height: 100%;
+    }
+    .small-container {
+        width: 100%;
+        border-radius: 0;
+    }
+    .first-col {
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 15%;
+    }
+    .profile {
+        display: none;
+    }
+    .portfolio-nav {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+    .projects {
+        width: 25%;
+        height: 100%;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+    .second-col {
+        width: 100%;
+        height: 85%;
+        border-right: 0;
+        border-radius: 0;
+    }
+    .personal-nav {
+        justify-content: space-between;
+    }
+    .personal-nav-headers {
+        width: 49%;
+        border-radius: 5px;
+    }
+    .about {
+        border-radius: 0;
+    }
+    .small-left {
+        flex-flow: row nowrap;
+        width: 100%;
+        height: 50%;
+        font-size: .75em;
+    }
+    .small-left > ul {
+        width: 80%;
+        height: 100%;
+        padding: 10px;
+    }
+    .small-left > ul > li {
+        align-items: flex-start;
+    }
+    .links {
+        flex-flow: column nowrap;
+        width: 20%;
+        height: 100%;
+        padding: 10px;
+    }
+    .imp-links {
+        align-items: flex-start;
+        width: 100%;
+        height: 25%;
+        padding: 0 5px 5px 0;
+    }
+    .center {
+        display: none;
+    }
+    .small-right {
+        width: 100%;
+        height: 50%;
+        border-radius: 0;
+        border: 1px solid red;
+        border-bottom: none;
+    }
+    .skills-label {
+        height: 10%;
+        border-radius: 0;
+        font-size: 1.25em;
+        border-bottom: 1px solid red;
+    }
+    .skills-body {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 90%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        background: whitesmoke;
+    }
+    .skills-row {
+        width: 50%;
+        height: 33%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 1.15em;
+        border-bottom: 1px solid red;
+    }
+    .skills-row.fourth-row, .skills-row.last-row {
+        height: 50%;
+        border-left: 1px solid red;
+    }
+    .top-row {
+        height: 80%;
+        font-size: .9em;
+    }
+    .bottom-row {
+        height: 20%;
+        font-size: .7em;
+        padding: 0 20px 20px 20px;
+    }
+    .title {
+        font-size: 1em;
+    }
+    .description-container > ul, .main-row-top, .main-row-middle, .more {
+        font-size: .8em;
+    }
+
+}
+
+@media screen and (max-width: 750px) and (orientation: landscape) {
+
+    .links {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+
+    .title {
+        font-size: 1.5em;
+    }
+    .top-row {
+        font-size: .65em;
+    }
+    .description-container > ul, .main-row-top, .main-row-bottom, .more {
+        font-size: .2em;
+    }
+    .main-row-top {
+        height: 45%;
+    }
+    .main-row-middle {
+        height: 35%;
+    }
+}
+
+@media screen and (max-width: 600px) and (max-height: 660px) and (orientation: landscape) {
+
+    .small-left {
+        font-size: .75em;
+    }
+    .skills-label, .skills-row {
+        font-size: .75em;
+    }
+    .credit {
+        font-size: .75em;
+    }
+    .bottom-row {
+        font-size: .5em;
+    }
+    .description-container > ul, .main-row-top, .main-row-bottom, .more {
+        font-size: .775em;
+    }
+    .main-row-top {
+        height: 80%;
+    }
+    .main-row-middle {
+        display: none;
+    }
+    .project-links {
+        height: 20%;
+    }
+
+}
+
+@media screen and (max-width: 350px) and (max-height: 660px) and (orientation: portrait) {
+
+    .small-left > ul {
+        font-size: .9em;
+    }
+    .skills-label, .skills-row {
+        font-size: .6em;
+    }
+    .special-size {
+        font-size: 1.15em;
+    }
+    .top-row {
+        font-size: .8em;
+        padding: 15px;
+    }
+    .bottom-row {
+        font-size: .5em;
+        padding: 0 15px 20px 15px;
+    }
+    .description-container > ul, .main-row-top, .main-row-middle, .more {
+        font-size: .5em;
+    }
+
 }
