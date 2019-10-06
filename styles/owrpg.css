@@ -398,6 +398,7 @@ hr {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
+        margin: 0 15px 0 15px !important;
     }
     .owrpg > .description-container > ul > li > ul {
         justify-content: center;
@@ -412,6 +413,7 @@ hr {
         align-items: center;
         width: 100%;
         height: 37.5%;
+        padding: 0 10px 0 10px;
     }
     .project-links {
         height: 25%;
@@ -828,6 +830,13 @@ hr {
     }
     .description-container > ul, .main-row-top, .main-row-middle, .more {
         font-size: .9em;
+    }
+    .main-row-top > ul {
+        justify-content: space-between;
+        margin: 0 20px 0 20px !important;
+    }
+    .main-row-middle {
+        padding: 0 5px 0 5px;
     }
 
 }
