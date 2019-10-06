@@ -403,7 +403,7 @@ hr {
     .profile {
         height: 15%;
         border-radius: 0;
-        border: 5px solid whitesmoke;
+        border: none;
     }
     .portfolio-nav {
         width: 100%;
