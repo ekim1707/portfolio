@@ -76,6 +76,9 @@ body {
 .projects:hover {
     cursor: pointer;
 }
+.projects > img {
+    background: transparent;
+}
 .projects > img:hover {
     pointer-events: none;
 }
