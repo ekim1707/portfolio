@@ -392,7 +392,7 @@ hr {
     }
     .main-row-top {
         width: 100%;
-        height: 37.5%;
+        height: 45%;
     }
     .main-row-top > ul {
         display: flex;
@@ -412,7 +412,7 @@ hr {
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        height: 37.5%;
+        height: 30%;
         padding: 0 10px 0 10px;
     }
     .project-links {
@@ -829,7 +829,7 @@ hr {
         font-size: 1em;
     }
     .description-container > ul, .main-row-top, .main-row-middle, .more {
-        font-size: .8em;
+        font-size: .9em;
     }
     .main-row-top > ul {
         justify-content: space-between;
