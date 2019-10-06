@@ -151,6 +151,12 @@ hr {
 
 @media screen and (max-width: 1400px) and (max-height: 1100px) and (orientation: landscape) {
 
+    .blinking {
+        animation: none;
+    }
+    @keyframes bounce {
+        0%, 100% {}
+    }
     .small-left {
         width: 25%;
         font-size: 1.5em;
@@ -252,6 +258,12 @@ hr {
 
 @media screen and (max-width: 1100px) and (orientation: portrait) {
 
+    .blinking {
+        animation: none;
+    }
+    @keyframes bounce {
+        0%, 100% {}
+    }
     .about {
         flex-flow: column nowrap;
     }
