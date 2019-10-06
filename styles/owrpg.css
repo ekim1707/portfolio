@@ -157,6 +157,9 @@ hr {
     @keyframes bounce {
         0%, 100% {}
     }
+    .projects > img {
+        background: transparent;
+    }
     .small-left {
         width: 25%;
         font-size: 1.5em;
@@ -263,6 +266,9 @@ hr {
     }
     @keyframes bounce {
         0%, 100% {}
+    }
+    .projects > img {
+        background: transparent;
     }
     .about {
         flex-flow: column nowrap;
