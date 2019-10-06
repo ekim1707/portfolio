@@ -81,6 +81,7 @@ body {
 }
 .projects > img:hover {
     pointer-events: none;
+    animation: none;
 }
 .blinking {
     animation: blinking 1.2s infinite ease-in-out;
