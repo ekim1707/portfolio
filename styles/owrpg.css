@@ -708,6 +708,10 @@ hr {
     .title {
         font-size: 1.5em;
     }
+    .iframe-management {
+        width: 360px;
+        height: 202.5px;
+    }
     .description-container {
         width: 28%;
         height: 98%;
@@ -871,6 +875,10 @@ hr {
     .title {
         font-size: 1em;
     }
+    .iframe-management {
+        width: 360px;
+        height: 202.5px;
+    }
     .description-container > ul, .main-row-top, .main-row-middle, .more {
         font-size: .9em;
     }
@@ -909,6 +917,10 @@ hr {
     .main-row-middle {
         display: none;
     }
+    .iframe-management {
+        width: 330px;
+        height: 185.6px;
+    }
 
 }
 
@@ -941,6 +953,10 @@ hr {
     .rpg-label {
         font-size: .1em;
     }
+    .iframe-management {
+        width: 250px;
+        height: 140.6px;
+    }
 
 }
 
@@ -968,6 +984,10 @@ hr {
     }
     .rpg-label {
         font-size: .3em;
+    }
+    .iframe-management {
+        width: 250px;
+        height: 140.6px;
     }
 
 }
