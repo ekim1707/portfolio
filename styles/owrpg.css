@@ -159,8 +159,8 @@ hr {
     @keyframes bounce {
         0%, 100% {}
     }
-    .projects > img {
-        background: transparent;
+    .rpg-label {
+        bottom: 4.5%;
     }
     .small-left {
         width: 25%;
@@ -205,14 +205,8 @@ hr {
         height: 60%;
         background: white;
     }
-    .projone > .project-body-background > .title {
-        align-items: center;
-        height: 15%;
-    }
-    .inprogress-images {
-        height: 85%;
-    }
     .title {
+        position: static;
         align-items: center;
         height: 10%;
         font-size: 3em;
@@ -393,10 +387,8 @@ hr {
         border: none;
         border-radius: 0;
     }
-    .projects > img {
-        width: 80%;
-        height: auto;
-        background: transparent;
+    .rpg-label {
+        bottom: 7%;
     }
     .first-col {
         background: white;
@@ -491,6 +483,10 @@ hr {
     .title {
         font-size: 1.5em;
     }
+    .iframe-management {
+        width: 560px;
+        height: 340px;
+    }
     .description-container > ul {
         font-size: .8em;
     }
@@ -545,6 +541,9 @@ hr {
     }
     .main-row-middle {
         height: 38%;
+    }
+    .rpg-label {
+        font-size: .7em;
     }
 
 }
@@ -601,11 +600,15 @@ hr {
     .title {
         font-size: 1.5em;
     }
+    .iframe-management {
+        width: 560px;
+        height: 340px;
+    }
     .description-container > ul, .main-row-top, .main-row-middle, .more {
         font-size: 1.1em;
     }
-    .projects {
-        font-size: .3em;
+    .rpg-label {
+        font-size: .8em;
     }
 
 }
@@ -625,15 +628,12 @@ hr {
         padding-bottom: 5px;
     }
     .projects {
+        padding: 5px;
         border-radius: 10px;
-        font-size: .3em;
     }
-    .projects > img {
-        width: auto;
-        height: 90%;
-    }
-    #owrpg > img {
-        height: 70%;
+    .rpg-label {
+        font-size: .1em;
+        bottom: 2.5%;
     }
     .personal-nav-headers {
         width: 47%;
@@ -766,8 +766,10 @@ hr {
         border: none;
         border-radius: 0;
     }
-    .projects > img {
-        width: 75%;
+    .rpg-label {
+        right: 9.5%;
+        bottom: 15.5%;
+        font-size: .7em;
     }
     .second-col {
         width: 100%;
@@ -936,6 +938,9 @@ hr {
     .project-links {
         height: 20%;
     }
+    .rpg-label {
+        font-size: .1em;
+    }
 
 }
 
@@ -960,6 +965,9 @@ hr {
     }
     .description-container > ul, .main-row-top, .main-row-middle, .more {
         font-size: .5em;
+    }
+    .rpg-label {
+        font-size: .3em;
     }
 
 }
