@@ -772,7 +772,7 @@ hr {
     }
     .rpg-label {
         right: 9.5%;
-        bottom: 15.5%;
+        bottom: 10%;
         font-size: .7em;
     }
     .second-col {
@@ -873,7 +873,11 @@ hr {
         padding: 0 20px 20px 20px;
     }
     .title {
+        position: static;
         font-size: 1em;
+    }
+    .iframe-container {
+        height: 90%;
     }
     .iframe-management {
         width: 360px;
