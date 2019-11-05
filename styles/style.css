@@ -141,7 +141,7 @@ body {
 }
 .small-container {
     display: flex;
-    background: white;
+    background: transparent;
     width: 95%;
     height: 95%;
     border-radius: 25px;
