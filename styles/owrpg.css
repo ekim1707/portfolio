@@ -280,18 +280,74 @@
     border: 10px solid rgb(245, 193, 149);
     overflow-y: scroll;
 }
+.arrow-ld {
+    display: flex;
+    position: absolute;
+    right: 25%;
+    top: 13%;
+}
 .scroll-me {
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 50px;
-    right: 12%;
-    top: 8%;
-    background: white;
-    border: 2px solid gray;
+    width: 80px;
+    height: 40px;
+    right: 17%;
+    top: 10%;
+    background: lightgray;
+    color: red;
+    border: 2px solid black;
+    border-radius: 15px;
 }
+.ptd-paragraph-div {
+    display: flex;
+    position: relative;
+    width: 90%;
+    background: whitesmoke;
+    border: 2px solid rgb(245, 193, 149);
+    border-right: none;
+}
+.ptd-github-link {
+    position: absolute;
+    width: 100px;
+    top: -80px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: rgb(245, 193, 149);
+    border-radius: 25px;
+    transition: 1s;
+}
+.ptd-github-link:hover {
+    color: red;
+    transition: 1s;
+}
+.jsonly {
+    left: 0;
+}
+.jsnode {
+    right: 0;
+}
+.ptd-paragraph-cols {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+    border-right: 2px solid rgb(245, 193, 149);
+}
+.ptd-paragraph-cols > label {
+    padding-top: 5px;
+}
+.ptd-paragraph-cols > p {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    font-weight: initial;
+    overflow-y: scroll;
+}
+
 .owrpg-git {
     position: absolute;
     right: 15px;
@@ -303,6 +359,60 @@
 .marvel-repo-link {
     color: gold;
     text-decoration: none;
+}
+
+.bgimg-1b {
+    background: url('../images/anatomybackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .2;
+}
+.anatomy-title {
+    background: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+.anatomy-helper-gallery {
+    border: 10px solid gray;
+}
+.anatomy-site {
+    position: absolute;
+    right: 15px;
+    top: 80px;
+}
+.anatomy-site:hover {
+    animation: bounce 1.2s infinite ease-in-out;
+}
+.tools-used-div {
+    display: flex;
+}
+.background-dodgerblue {
+    background: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+}
+.background-white {
+    background: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+}
+
+.bgimg-2b, .bgimg-3b {
+    background: url('../images/underconstruction.gif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sat-title, .peachseed-title {
+    background: white;
+    color: black;
 }
 
 .white {

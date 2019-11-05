@@ -268,14 +268,14 @@
                         </div>
                         <div class="see-more-nav">
                             <ul class="see-more-nav-completed">
-                                <label>Completed</label>
+                                <label>Completed:</label>
                                 <li class="see-more-nav-link selected" id="completed1">OWRPG</li>
                                 <li class="see-more-nav-link" id="completed2">Marvel Weather</li>
                                 <li class="see-more-nav-link" id="completed3">PeachtreeData Vintage</li>
                             </ul>
                             <hr class="see-more-nav-hr">
                             <ul class="see-more-nav-in-progress">
-                                <label>In Progress</label>
+                                <label>In Progress:</label>
                                 <li class="see-more-nav-link" id="inprogress1">Anatomy Helper</li>
                                 <li class="see-more-nav-link" id="inprogress2">SAT Review</li>
                                 <li class="see-more-nav-link" id="inprogress3">peacheed.com</li>
@@ -312,8 +312,8 @@
                                     <li class="picture-gallery-nav-lis" id="picture-gallery-b">B</li>
                                 </div>
                                 <div class="see-more-picture-gallery">
-                                    <img class="picture-gallery-images" src="./images/marvelweather1.png" width="auto" height="100%" alt="" id="picture-gallery-a">
-                                    <img class="picture-gallery-images hidden" src="./images/marvelweather2.png" width="auto" height="100%" alt="" id="picture-gallery-b">
+                                    <img class="picture-gallery-images mw-images" src="./images/marvelweather1.png" width="auto" height="100%" alt="" id="picture-gallery-a">
+                                    <img class="picture-gallery-images mw-images hidden" src="./images/marvelweather2.png" width="auto" height="100%" alt="" id="picture-gallery-b">
                                 </div>
                                 <p class="white">
                                     This was the first group project attempted during my DigitalCrafts cohort session. There was only one major
@@ -343,21 +343,82 @@
                                     <img class="picture-gallery-images" src="./images/peachtreeoriginal4.png" width="auto" height="100%" alt="" id="ptd-e">
                                     <img class="picture-gallery-images" src="./images/peachtreeoriginal5.png" width="auto" height="100%" alt="" id="ptd-f">
                                 </div>
-                                <div class="scroll-me">Scroll Me</div>
+                                <img class="arrow-ld" src="./images/leftdownarrow.png" width="30px" height="30px" alt="">
+                                <div class="scroll-me">
+                                    Scroll Me!
+                                </div>
+                                <div class="ptd-paragraph-div">
+                                    <a class="ptd-github-link jsonly" href="https://github.com/ekim1707/webprojects/tree/master/newidea" target="_blank">
+                                        <div>
+                                            JSonly
+                                        </div>
+                                        <div>
+                                            Git Repo
+                                        </div>
+                                    </a>
+                                    <a class="ptd-github-link jsnode" href="https://github.com/ekim1707/PeachtreeData-Node-Version" target="_blank">
+                                        <div>
+                                            Node
+                                        </div>
+                                        <div>
+                                            Git Repo
+                                        </div>
+                                    </a>
+                                    <div class="ptd-paragraph-cols">
+                                        <label>
+                                            Vanilla JS only
+                                        </label>
+                                        <p>
+                                            The picture gallery above shows an accurate transition from the beginning of PeachtreeData.com to
+                                            the currently deployed React product. The first two pictures show the very first version I began
+                                            on my own as soon as we learned basic JavaScript in class. The project was fully static and very
+                                            simple, other than CSS animations, and was never completed.
+                                        </p>
+                                    </div>
+                                    <div class="ptd-paragraph-cols">
+                                        <label>
+                                            JS + Node.js, + Express.js
+                                        </label>
+                                        <p>
+                                            The last three pictures is the second version I started once we had begun learning Node in class.
+                                            There is a functional backend with a little server/client interaction available through Express,
+                                            but it was left largely unfinished as well as soon as we had begun to learn React.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="see-more-body hidden" id="inprogress1">
                             <div class="see-more-body-background-image bgimg-1b"></div>
                             <div class="see-more-body-content">
-                                <h2 class="see-more-title">
+                                <h2 class="see-more-title anatomy-title">
                                     Anatomy Helper
                                 </h2>
+                                <div class="see-more-picture-gallery anatomy-helper-gallery">
+                                    <img class="picture-gallery-images" src="./images/inprogressanatomyhelper.png" width="auto" height="100%" alt="">
+                                </div>
+                                <p>
+                                    This site is intended to be made using only vanilla JavaScript, Node, and Express, and with the use of 
+                                    the least amount of modules and frameworks as possible. It is supposed to be a simple learning aid 
+                                    for Anatomy & Physiology and fundamental medical studies. While in progress, the site is deployed and
+                                    available to be seen using the link above.
+                                </p>
+                                <div class="tools-used-div">
+                                    <span class="background-dodgerblue">So far I have used:</span>
+                                    <span class="background-white">HTML5, CSS, JavaScript, Node, Express-Generator</span>
+                                </div>
+                                <a href="https://github.com/ekim1707/anatomy-app" target="_blank">
+                                    <img class="github-icon owrpg-git" width="auto" height="50px" src="./images/icon-github.svg">
+                                </a>
+                                <a href="" target="_blank">
+                                    <img class="anatomy-site" width="auto" height="50px" src="./images/entersite.png">
+                                </a>
                             </div>
                         </div>
                         <div class="see-more-body hidden" id="inprogress2">
                             <div class="see-more-body-background-image bgimg-2b"></div>
                             <div class="see-more-body-content">
-                                <h2 class="see-more-title">
+                                <h2 class="see-more-title sat-title">
                                     SAT Review
                                 </h2>
                             </div>
@@ -365,7 +426,7 @@
                         <div class="see-more-body hidden" id="inprogress3">
                             <div class="see-more-body-background-image bgimg-3b"></div>
                             <div class="see-more-body-content">
-                                <h2 class="see-more-title">
+                                <h2 class="see-more-title peachseed-title">
                                     peachseed.com
                                 </h2>
                             </div>
@@ -450,8 +511,8 @@ $(document).ready(function () {
         if (el.classList.contains('picture-gallery-nav-lis')) {
             $('.picture-gallery-nav-lis').removeClass('selected');
             $(el).addClass('selected');
-            $('.picture-gallery-images').removeClass('hidden');
-            $.each($('.picture-gallery-images'), function (i, image) {
+            $('.mw-images').removeClass('hidden');
+            $.each($('.mw-images'), function (i, image) {
                 if (image.id !== el.id) {
                     $(image).addClass('hidden');
                 }
