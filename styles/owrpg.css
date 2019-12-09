@@ -746,6 +746,33 @@ hr {
     .project-links {
         height: 25%;
     }
+    .see-more-nav {
+        width: 100%;
+        height: 15%;
+        right: initial;
+        bottom: 0%;
+    }
+    .see-more-nav > ul > label {
+        width: 20%;
+        height: 100%;
+    }
+    .see-more-nav > ul {
+        display: flex;
+    }
+    .see-more-nav > ul > li {
+        width: 20%;
+        height: 100%;
+    }
+    .see-more-body {
+        width: 100%;
+        height: 85%;
+    }
+    .see-more-body-content {
+        padding-top: 10%;
+    }
+    .see-more-label {
+        width: 20%;
+    }
 
 }
 
