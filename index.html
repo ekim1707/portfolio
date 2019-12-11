@@ -5,528 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="./styles/credit.css">
-    <link rel="stylesheet" href="./styles/projone.css">
-    <link rel="stylesheet" href="./styles/projtwo.css">
-    <link rel="stylesheet" href="./styles/projthree.css">
-    <link rel="stylesheet" href="./styles/owrpg.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.5.0/js/md5.min.js"></script>
     <title>Eugene Kim's Portfolio</title>
 </head>
 <body>
-    <div class="container">
-    <div class="flex-container">
-        <div class="first-col">
-            <div class="profile"></div>
-            <div class="portfolio-nav red">
-                <img src="./images/icon-logo.png" class="projects" id="projone" alt="">
-                <img src="./images/widow.png" class="projects" id="projtwo" alt="">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Crystal_Project_Documentinfo.png" class="projects" id="projthree" alt="">
-                <img src="./images/see-more.png" class="projects" id="owrpg" alt="">
-            </div>
+    <div class="intro">
+        <button id="intro-exit">
+            Click here to exit the intro!
+        </button>
+        <div class="intro-1" id="intro-1">
+            <h3 class="rainbow rainbow_text_animated">
+                Thank you for visiting my portfolio! Scripts loading...
+            </h3>
         </div>
-        <div class="second-col">
-            <div class="personal-nav">
-                <div class="personal-nav-headers background-toggle" id="first">ABOUT ME</div>
-                <div class="personal-nav-headers" id="fifth">CREDITS</div>
+        <img class="hidden" src="images/intro/connections.png" width="100%" height="100%" id="intro-2">
+        <img class="hidden" src="images/intro/freewrite.png" width="100%" height="100%" id="intro-3">
+        <img class="hidden" src="images/intro/intropage.png" width="100%" height="100%" id="intro-4">
+        <img class="hidden" src="images/intro/modalpage.png" width="100%" height="100%" id="intro-5">
+        <img class="hidden" src="images/intro/createaccountandlogin.gif" width="100%" height="100%" id="intro-6">
+        <img class="hidden" src="images/intro/usingadminpage.gif" width="100%" height="100%" id="intro-7">
+        <img class="hidden" src="https://media.giphy.com/media/kHZyTYGuwzNXMeeLkZ/giphy.gif" width="100%" height="100%" id="intro-8" />
+        <img class="hidden" src="https://media.giphy.com/media/chQkjQuDFPQMgrRTN2/giphy.gif" width="100%" height="100%" id="intro-9" />
+    </div>
+    <div class="main-project hidden" id="navlink-3">
+        <nav>
+            <div class="name">
+                Eugene Kim
             </div>
-            <div class="main-container">
-                <div class="small-container">
-                    <div class="about">
-                        <div class="small-left">
-                            <ul>
-                                <li>NAME:</li>
-                                <li class="dodgerblue">Eugene Kim</li>
-                                <li>BIRTHDATE:</li>
-                                <li class="dodgerblue">June 20, 1985</li>
-                                <li>BORN:</li>
-                                <li class="dodgerblue">Rochester, NY</li>
-                                <li>CURRENT LOCATION:</li>
-                                <li class="dodgerblue">Johns Creek, GA</li>
-                                <li>EMAIL:</li>
-                                <li class="dodgerblue">ekim1707@gmail.com</li>
-                            </ul>
-                            <div class="links">
-                                <a class="imp-links" href="https://www.linkedin.com/in/eugene-kim-1707" target="_blank"><img src="./images/icon-linkedin.png" width="100%" height="auto"></a>
-                                <a class="imp-links" href="https://www.facebook.com/eugene.kim.146" target="_blank"><img src="./images/icon-facebook.png" width="100%" height="auto"></a>
-                                <a class="imp-links" href="https://github.com/ekim1707/" target="_blank"><img src="./images/icon-github.svg" width="100%" height="auto"></a>
-                                <a class="imp-links" href="./images/portfolioresume.pdf" download><img src="./images/resumedownload.png" width="100%" height="auto"></a>
-                            </div>
-                        </div>
-                        <div class="center">
-                            <div>
-                                As the son of two doctors, and a lifelong student of the health sciences, I am making
-                                a huge leap for the first time in my life out of everything I've ever known and into the
-                                unfamiliar field of software development.
-                            </div>
-                            <div>
-                                I still remain loyal to my roots, and Math and, in particular, Anatomy & Physiology
-                                will probably be my greatest true passions forever. However, I am
-                                certainly glad that I left nursing school behind and have finally found a career path 
-                                that I seem to enjoy with my all my heart.
-                            </div>
-                            <div>
-                                Whether you end up a fan of the projects you see here on this page or not, thank you for
-                                taking the time to visit!
-                            </div>
-                        </div>
-                        <div class="small-right">
-                            <div class="skills-label">
-                                SKILLS:
-                            </div>
-                            <div class="skills-body">
-                                <div class="skills-row">
-                                    Python
-                                    <img src="./images/Python3.svg.png" class="images" width="auto" height="100%" alt="" id="python-img">
-                                </div>
-                                <div class="skills-row">
-                                    <img src="./images/flexbox.png" class="images" width="25%" height="100%" alt="" id="flexbox-img">
-                                    <ul>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                    </ul>
-                                </div>
-                                <div class="skills-row">
-                                    <ul>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                    </ul>
-                                    <img src="./images/jquery.png" class="images" width="auto" height="100%" alt="" id="jquery-img">
-                                </div>
-                                <div class="skills-row fourth-row">
-                                    <img src="./images/node.svg.png" class="images" width="40%" height="100%" alt="" id="node-img">
-                                    <ul>
-                                        <li>PostgreSQL</li>
-                                        <li>Node</li>
-                                        <li>Express</li>
-                                    </ul>
-                                </div>
-                                <div class="skills-row last-row">
-                                    <ul>
-                                        <li>React</li>
-                                        <li>Redux</li>
-                                    </ul>
-                                    <img src="./images/react.png" class="images" width="auto" height="100%" alt="" id="react-img">
-                                </div>
-                            </div>
-                        </div>
+            <div class="links">
+                <a href="#navlink-1">Contact</a>
+                <a href="#navlink-2">Portfolio</a>
+                <a href="#navlink-3">About Me</a>
+                <a href="#navlink-4">Personal</a>
+            </div>
+        </nav>
+        <img class="header-image" src="images/personal-images/coffee.jpg">
+        <img class="profile-picture" src="images/personal-images/newprofilepic.jpg">
+        <div class="main-container">
+            <div class="about-me">
+                <h2>
+                    Hi, I'm Eugene
+                </h2>
+                <p>
+                    I've spent most of my life studying for and working in healthcare, but I've explored many 
+                    other disciplines as well. All of these experiences showed me the values of team unity add
+                    respecting others, as well as being professional and efficient with work tasks. In October, 2019 
+                    I completed my first experience with software developing through DigitalCrafts four month, immersive
+                    coding bootcamp, and I am looking forward to more.
+                </p>
+            </div>
+            <div class="featured-project" id="navlink-2">
+                <img src="images/icons/icon-logo.png" width=auto height="50px">
+                <h2>Featured Project: PeachtreeData.com</h2>
+                <h3>
+                    PeachtreeData.com is a versitile life-database management site that also contains the capacity to serve 
+                    in a social-media way. Users can upload anything relevant to them to the site in organized fashion, including 
+                    but not limited to, favorite quotations, song lyrics, pictures, videos, notes, journal entries, and places, and 
+                    also hold onto the option of sharing any of these to their account connections through the website newsfeed. This 
+                    app mainly featured React, as well as a good amount of Redux due to its many moving parts.
+                </h3>
+                <h3>
+                    Watch the following video for a walkthrough of the app to see all the features in action!
+                </h3>
+                <iframe class="iframe-management" src="https://www.youtube.com/embed/TMt0IHfmBbg" frameborder="0" width="640px" height="385px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a class="github-repo-button" href="https://github.com/ekim1707/PeachtreeData-React-Frontend" target="_blank">
+                    Github
+                </a>
+            </div>
+            <div class="projects-container">
+                <h2>Projects</h2>
+                <div class="projects-div">
+                    <div class="projects-div-col">
+                        <h2>
+                            Widowsite
+                        </h2>
+                        <h3>
+                            Widowsite is an interactive front-end React.js website regarding the video game Overwatch. It includes
+                            a detailed overview of the game and all its heroes, a media player for videos of gameplay, and a fully
+                            live forum.
+                        </h3>
+                        <a class="github-repo-button" href="https://github.com/ekim1707/widowsite" target="_blank">
+                            Github
+                        </a>
                     </div>
-                    <div class="credit hidden">
-                        <div class="top-row">
-                            <li class="special-size">Special thanks to my wife <span class="special-pink">Tiffany Kim</span>...</li>
-                            <div class="credit-img"></div>
-                            <li>...who is the driving engine behind this entire endeavor and has sacrificed so much for
-                            me along the way out of love.</li>
-                            <li>Along with my wonderful parents and sister, Eunice, who all continue to support me unconditionally,
-                            no matter what I choose.</li>
-                        </div>
-                        <div class="bottom-row">
-                            <li>A final sincere thank you to the best teachers I could have asked for:</li>
-                            <li class="bottom-row-toggle-direction">
-                                <span>Gary Storey, </span>
-                                <span>Chris Aquino, </span>
-                                <span>Rob Bunch, </span>
-                                <span>Jonathan Ray, </span>
-                                <span>Tony DiRusso</span>
-                            </li>
-                            <li>And the colleagues who got me through at least this far:</li>
-                            <li class="bottom-row-toggle-direction">
-                                <span>Charles, </span>
-                                <span>JoeJoe, </span>
-                                <span>Sean, </span>
-                                <span>Washington, </span>
-                                <span>John N.</span>
-                            </li>
-                        </div>
+                    <iframe class="iframe-management" src="https://www.youtube.com/embed/fxX90aPSra8" frameborder="0" width="640px" height="385px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="projects-div">
+                    <iframe class="iframe-management" src="https://www.youtube.com/embed/TUDsettSCaQ" frameborder="0" width="640px" height="385px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="projects-div-col">
+                        <h2>
+                            InstaID
+                        </h2>
+                        <h3>
+                            This application functions as an everyday identification tool, featuring an administrator desktop page,
+                            where employees can be added to a company database, as well as a mobile app platform where employees can 
+                            receive QR codes with their verified credentials once having been added.
+                        </h3>
+                        <a class="github-repo-button" href="https://github.com/ekim1707/DC-2019-Backend-Project" target="_blank">
+                            Github
+                        </a>
                     </div>
-                    <div class="projone hidden">
-                        <div class="project-body-background">
-                            <div class="title actual-red">
-                                PeachtreeData.com
-                            </div>
-                            <div class="iframe-container">
-                                <iframe class="iframe-management" src="https://www.youtube.com/embed/TMt0IHfmBbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <ul>
-                                <li class="main-row-top">
-                                    <span>WHAT I USED</span>
-                                    <hr>
-                                    <ul>
-                                        <li>HTML, CSS</li>
-                                        <li>JavaScript, Node, Express</li>
-                                        <li>PostgreSQL, PG-Promise</li>
-                                        <li>React, React-Router</li>
-                                        <li>Redux, React-Redux, Axios, Redux-Promise</li>
-                                    </ul>
-                                </li>
-                                <li class="main-row-middle"><hr>You may access the site below using "ekim1707@gmail.com" and
-                                password "yes" to see an account with hard-coded seed data. Otherwise, if you make your own
-                                account, it will look very empty beyond the media page.</li>
-                                <li class="project-links">
-                                    <hr>
-                                    <div class="more">
-                                        MORE:
-                                    </div>
-                                    <div class="project-links-row">
-                                        <a href="https://peachtreedata.eugenekimportfolio.com/" target="_blank">
-                                            <img width="auto" height="100%" src="./images/entersite.png">
-                                        </a>
-                                        <a href="https://github.com/ekim1707/PeachtreeData-React-Frontend" target="_blank">
-                                            <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="projects-div">
+                    <div class="projects-div-col">
+                        <h2>
+                            OWRPG
+                        </h2>
+                        <h3>
+                            OWRPG is a large-scale, multi-layered RPG game regarding the game Overwatch, which features 
+                            a 2v2 battles between a hero and an enemy, along with healers for each side. Actions include
+                            primary fire, secondary abilities with cooldowns based upon number of turns, and ultimates based 
+                            upon charge percentage.
+                        </h3>
+                        <a class="github-repo-button" href="https://github.com/ekim1707/owrpg" target="_blank">
+                            Github
+                        </a>
                     </div>
-                    <div class="projtwo hidden">
-                        <div class="project-body-background">
-                            <div class="title actual-red">
-                                Widowsite
-                            </div>
-                            <div class="iframe-container">
-                                <iframe class="iframe-management" src="https://www.youtube.com/embed/fxX90aPSra8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <ul>
-                                <li class="main-row-top">
-                                    <span>WHAT I USED</span>
-                                    <hr>
-                                    <ul>
-                                        <li>HTML, CSS</li>
-                                        <li>JavaScript, Node</li>
-                                        <li>React, React-Router</li>
-                                        <li>Materialize</li>
-                                    </ul>
-                                </li>
-                                <li class="main-row-middle"><hr>This is my first React.js project, and it is simply an "Wiki"-type website for the video game Overwatch,
-                                featuring my favorite hero, Widowmaker.</li>
-                                <li class="project-links">
-                                    <hr>
-                                    <div class="more">
-                                        MORE:
-                                    </div>
-                                    <div class="project-links-row">
-                                        <a href="https://widowsite.eugenekimportfolio.com/" target="_blank">
-                                            <img width="auto" height="100%" src="./images/entersite.png">
-                                        </a>
-                                        <a href="https://github.com/ekim1707/widowsite" target="_blank">
-                                            <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                    <iframe class="iframe-management" src="https://www.youtube.com/embed/QDMF8eHOnkQ" frameborder="0" width="640px" height="385px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="projects-div">
+                    <iframe class="iframe-management" src="https://www.youtube.com/embed/sm5uFahto5s" frameborder="0" width="640px" height="385px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="projects-div-col">
+                        <h2>
+                            Marvel Weather
+                        </h2>
+                        <h3>
+                            Marvel Weather takes two separate third-party API calls from Marvel Developer and OpenWeather and combines
+                            them into an interactive, responsive application that relates weather conditions from across the globe to
+                            certain Marvel superheroes.
+                        </h3>
+                        <a class="github-repo-button" href="https://github.com/ekim1707/group-project1" target="_blank">
+                            Github
+                        </a>
                     </div>
-                    <div class="projthree hidden">
-                        <div class="project-body-background">
-                            <div class="title actual-red">
-                                Insta.id
-                            </div>
-                            <div class="iframe-container">
-                                <iframe class="iframe-management" src="https://www.youtube.com/embed/TUDsettSCaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <ul>
-                                <li class="main-row-top">
-                                    <span>WHAT WE USED</span>
-                                    <hr>
-                                    <ul>
-                                        <li>HTML, CSS</li>
-                                        <li>JavaScript, jQuery</li>
-                                        <li>Node, Express</li>
-                                        <li>PostgreSQL, PG-Promise</li>
-                                    </ul>
-                                </li>
-                                <li class="main-row-middle"><hr>Once entered into a company's database, employees can log into mobile and access
-                                a QR Code which contains ID information that any other smart phone camera can read.</li>
-                                <li class="project-links">
-                                    <hr>
-                                    <div class="more">
-                                        MORE:
-                                    </div>
-                                    <div class="project-links-row">
-                                        <a href="https://instaid.eugenekimportfolio.com" target="_blank">
-                                            <img width="auto" height="100%" src="./images/entersite.png">
-                                        </a>
-                                        <a href="https://github.com/ekim1707/DC-2019-Backend-Project" target="_blank">
-                                            <img class="github-icon" width="auto" height="100%" src="./images/icon-github.svg">
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="projects-div">
+                    <div class="projects-div-col">
+                        <h2>
+                            Anatomy App
+                        </h2>
+                        <h3>
+                            Anatomy App is supposed to be a simple learning aid for Anatomy & Physiology and fundamental medicine.
+                            While still in progress, the site is deployed and available to be accessed through its github link.
+                        </h3>
+                        <a class="github-repo-button" href="https://github.com/ekim1707/anatomy-app" target="_blank">
+                            Github
+                        </a>
                     </div>
-                    <div class="owrpg hidden">
-                        <div class="see-more-label">
-                            SIDE-PROJECTS
-                        </div>
-                        <div class="see-more-nav">
-                            <ul class="see-more-nav-completed">
-                                <label>Completed:</label>
-                                <li class="see-more-nav-link selected" id="completed1">OWRPG</li>
-                                <li class="see-more-nav-link" id="completed2">Marvel Weather</li>
-                                <li class="see-more-nav-link" id="completed3">PeachtreeData Vintage</li>
-                            </ul>
-                            <hr class="see-more-nav-hr">
-                            <ul class="see-more-nav-in-progress">
-                                <label>In Progress:</label>
-                                <li class="see-more-nav-link" id="inprogress1">Anatomy Helper</li>
-                                <li class="see-more-nav-link" id="inprogress2">SAT Review</li>
-                                <li class="see-more-nav-link" id="inprogress3">peacheed.com</li>
-                                <li class="see-more-nav-link" id="inprogress4">Goals Organizer</li>
-                            </ul>
-                        </div>
-                        <div class="see-more-body" id="completed1">
-                            <div class="see-more-body-background-image"></div>
-                            <div class="see-more-body-content">
-                                <h2 class="see-more-title">
-                                    Overwatch RPG
-                                </h2>
-                                <iframe class="iframe-management" src="https://www.youtube.com/embed/QDMF8eHOnkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p>
-                                    Overwatch RPG was the first solo side project I ever made. It was completely done with Python, and it runs
-                                    within Shell. While still technically incomplete, it currently runs close to perfect. Compared to the normal
-                                    RPG we completed in class, this one required much more complicated layering, which in the end is what made
-                                    it fun to make.
-                                </p>
-                                <a href="https://github.com/ekim1707/owrpg" target="_blank">
-                                    <img class="github-icon owrpg-git" width="auto" height="50px" src="./images/icon-github.svg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="see-more-body background-black hidden" id="completed2">
-                            <div class="see-more-body-background-image bgimg-2a"></div>
-                            <div class="see-more-body-content">
-                                <div class="see-more-image-title">
-                                    <img src="./images/marvel.jpg" width="50%" height="auto" alt="">
-                                    <img src="./images/weather.jpg" width="50%" height="auto" alt="">
-                                </div>
-                                <div class="picture-gallery-nav">
-                                    <label>IMAGES:</label>
-                                    <li class="picture-gallery-nav-lis selected" id="picture-gallery-a">A</li>
-                                    <li class="picture-gallery-nav-lis" id="picture-gallery-b">B</li>
-                                </div>
-                                <div class="see-more-picture-gallery">
-                                    <img class="picture-gallery-images mw-images" src="./images/marvelweather1.png" width="auto" height="100%" alt="" id="picture-gallery-a">
-                                    <img class="picture-gallery-images mw-images hidden" src="./images/marvelweather2.png" width="auto" height="100%" alt="" id="picture-gallery-b">
-                                </div>
-                                <p class="white">
-                                    This was the first group project attempted during my DigitalCrafts cohort session. There was only one major
-                                    requirement, which was to utilitze two different API sources at some point within the project through fetch
-                                    calling. Our group decided to use Marvel's own official API, as well as OpenWeather's API and combine the two 
-                                    themes by relating weather conditions to the powers of certain Marvel heroes.
-                                </p>
-                                <p class="white">
-                                    This site has never been deployed. A closer look can be seen in its&nbsp;
-                                    <a class="marvel-repo-link" href="https://github.com/ekim1707/group-project1" target="_blank">
-                                        GITHUB REPO
-                                    </a>
-                                    .
-                                </p>
-                            </div>
-                        </div>
-                        <div class="see-more-body hidden" id="completed3">
-                            <div class="see-more-body-background-image bgimg-3a"></div>
-                            <div class="see-more-body-content">
-                                <h2 class="see-more-title peachpuff-title">
-                                    PeachtreeData.com Vintage Series
-                                </h2>
-                                <div class="see-more-picture-gallery ptd-gallery">
-                                    <img class="picture-gallery-images" src="./images/peachtreedataoriginal1.png" width="auto" height="100%" alt="" id="ptd-a">
-                                    <img class="picture-gallery-images" src="./images/peachtreedataoriginal2.png" width="auto" height="100%" alt="" id="ptd-b">
-                                    <img class="picture-gallery-images" src="./images/peachtreeoriginal3.png" width="auto" height="100%" alt="" id="ptd-c">
-                                    <img class="picture-gallery-images" src="./images/peachtreeoriginal4.png" width="auto" height="100%" alt="" id="ptd-e">
-                                    <img class="picture-gallery-images" src="./images/peachtreeoriginal5.png" width="auto" height="100%" alt="" id="ptd-f">
-                                </div>
-                                <img class="arrow-ld" src="./images/leftdownarrow.png" width="30px" height="30px" alt="">
-                                <div class="scroll-me">
-                                    Scroll Me!
-                                </div>
-                                <div class="ptd-paragraph-div">
-                                    <a class="ptd-github-link jsonly" href="https://github.com/ekim1707/webprojects/tree/master/newidea" target="_blank">
-                                        <div>
-                                            JSonly
-                                        </div>
-                                        <div>
-                                            Git Repo
-                                        </div>
-                                    </a>
-                                    <a class="ptd-github-link jsnode" href="https://github.com/ekim1707/PeachtreeData-Node-Version" target="_blank">
-                                        <div>
-                                            Node
-                                        </div>
-                                        <div>
-                                            Git Repo
-                                        </div>
-                                    </a>
-                                    <div class="ptd-paragraph-cols">
-                                        <label>
-                                            Vanilla JS only
-                                        </label>
-                                        <p>
-                                            The picture gallery above shows an accurate transition from the beginning of PeachtreeData.com to
-                                            the currently deployed React product. The first two picture are of the very first version I began
-                                            on my own as soon as we learned basic JavaScript in class. The project was fully static and very
-                                            basic, other than CSS animations, and was never completed.
-                                        </p>
-                                    </div>
-                                    <div class="ptd-paragraph-cols">
-                                        <label>
-                                            JS + Node.js, + Express.js
-                                        </label>
-                                        <p>
-                                            The last three pictures are of the second version I started once we had begun learning Node.
-                                            There is a functional backend with a little server/client interaction available through Express,
-                                            but it was left largely unfinished as well.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="see-more-body hidden" id="inprogress1">
-                            <div class="see-more-body-background-image bgimg-1b"></div>
-                            <div class="see-more-body-content">
-                                <h2 class="see-more-title anatomy-title">
-                                    Anatomy Helper
-                                </h2>
-                                <div class="see-more-picture-gallery anatomy-helper-gallery">
-                                    <img class="picture-gallery-images" src="./images/inprogressanatomyhelper.png" width="auto" height="100%" alt="">
-                                </div>
-                                <p>
-                                    This site is intended to be made using only vanilla JavaScript, Node, and Express, and with the minimum 
-                                    amount of modules and frameworks possible. It is supposed to be a simple learning aid 
-                                    for Anatomy & Physiology and fundamental medicine. While in progress, the site is deployed and
-                                    available to be seen by clicking the icon above.
-                                </p>
-                                <div class="tools-used-div">
-                                    <span class="background-dodgerblue">So far I have used:</span>
-                                    <span class="background-white">HTML5, CSS, JavaScript, jQuery, Node, Express-Generator</span>
-                                </div>
-                                <a href="https://github.com/ekim1707/anatomy-app" target="_blank">
-                                    <img class="github-icon owrpg-git" width="auto" height="50px" src="./images/icon-github.svg">
-                                </a>
-                                <a href="https://anatomyhelper.eugenekimportfolio.com" target="_blank">
-                                    <img class="anatomy-site" width="auto" height="50px" src="./images/entersite.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="see-more-body hidden" id="inprogress2">
-                            <div class="see-more-body-background-image bgimg-2b"></div>
-                            <div class="see-more-body-content">
-                                <h2 class="see-more-title sat-title">
-                                    SAT Review
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="see-more-body hidden" id="inprogress3">
-                            <div class="see-more-body-background-image bgimg-3b"></div>
-                            <div class="see-more-body-content">
-                                <h2 class="see-more-title peachseed-title">
-                                    peachseed.com
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="see-more-body hidden" id="inprogress4">
-                            <div class="see-more-body-background-image bgimg-3b"></div>
-                            <div class="see-more-body-content">
-                                <h2 class="see-more-title peachseed-title">
-                                    Goal-reaching Organizer Tool
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
+                    <iframe class="iframe-management" src="https://www.youtube.com/embed/PM0JnC75eao" frameborder="0" width="640px" height="385px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="personal-container" id="navlink-4">
+            <h2>
+                Personal
+            </h2>
+            <h3>
+                Special thanks to my wife <span class="pink">Tiffany Kim</span>...
+            </h3>
+            <img src="./images/personal-images/credit.jpg" width="30%" height="auto" alt="">
+            <h3>
+                ...who is the driving engine behind this entire endeavor and has sacrificed so much for
+                me along the way out of love.
+            </h3>
+            <h3>
+                Along with my wonderful parents and sister, Eunice, who all continue to support me unconditionally,
+                no matter what I choose.
+            </h3>
+            <div class="center-text">
+                A final sincere thank you to the best teachers I could have asked for:
+                <br>
+                Gary Storey, Chris Aquino, Rob Bunch, Jonathan Ray, and Tony DiRusso
+                <br>
+                And the colleagues who got me through at least this far:
+                <br>
+                Charles, JoeJoe, Sean, Washington, and John N.
+            </div>
+        </div>
+        <h2 class="contact-header" id="navlink-1">
+            Contact
+        </h2>
+        <footer>
+            <a href="mailto:ekim1707@gmail.com" target="_blank">
+                <img src="./images/icons/email.png" width="auto" height="50px" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/eugene-kim-1707" target="_blank">
+                <img src="./images/icons/icon-linkedin.png" width="auto" height="50px" alt="">
+            </a>
+            <a href="https://github.com/ekim1707/" target="_blank">
+                <img src="./images/icons/github.png" width="auto" height="50px" alt="">
+            </a>
+            <a href="./images/portfolioresume.pdf" target="_blank">
+                <img src="./images/icons/document.png" width="auto" height="50px" alt="">
+            </a>
+        </footer>
     </div>
 </body>
 <script>
 $(document).ready(function () {
 
-    $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').mouseenter((event) => {
-        
-        const el = event.target;
-        if (!el.classList.contains('background-toggle')) {
-            el.classList.add('blinking');
-        }
-
-    })
-
-    $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').mouseleave((event) => {
-        
-        const el = event.target;
-
+    setTimeout(() => {
+        $('#intro-1').addClass('hidden');
+        $('#intro-2').removeClass('hidden').addClass('fadeInOut');
         setTimeout(() => {
-            el.classList.remove('blinking');
-        }, 200)
-
-    })
+            $('#intro-2').addClass('hidden');
+            $('#intro-3').removeClass('hidden').addClass('fadeInOut');
+            setTimeout(() => {
+                $('#intro-3').addClass('hidden');
+                $('#intro-4').removeClass('hidden').addClass('fadeInOut');
+                setTimeout(() => {
+                    $('#intro-4').addClass('hidden');
+                    $('#intro-5').removeClass('hidden').addClass('fadeInOut');
+                    setTimeout(() => {
+                        $('#intro-5').addClass('hidden');
+                        $('#intro-6').removeClass('hidden').addClass('fadeInOut');
+                        setTimeout(() => {
+                            $('#intro-6').addClass('hidden');
+                            $('#intro-7').removeClass('hidden').addClass('fadeInOut');
+                            setTimeout(() => {
+                                $('#intro-7').addClass('hidden');
+                                $('#intro-8').removeClass('hidden').addClass('fadeInOut');
+                                setTimeout(() => {
+                                    $('#intro-8').addClass('hidden');
+                                    $('#intro-9').removeClass('hidden').addClass('fadeInOut');
+                                    setTimeout(() => {
+                                        $('#intro-9').addClass('hidden');
+                                        if (!$('.intro').hasClass('hidden')) {
+                                            $('.intro').addClass('hidden');
+                                        }
+                                        $('.main-project').removeClass('hidden');
+                                    }, 3000);
+                                }, 3000);
+                            }, 3000);
+                        }, 3000);
+                    }, 3000);
+                }, 3000);
+            }, 3000);
+        }, 3000);
+    }, 5000);
 
     const controlClick = (e) => {
 
         const el = e.target;
-        el.classList.remove('blinking');
-            
-        if (el.id === 'first') {
-            $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
-            $('#first').addClass('background-toggle');
-            $('.about, .credit, .projone, .projtwo, .projthree, .owrpg').removeClass('hidden');
-            $('.credit, .projone, .projtwo, .projthree, .owrpg').addClass('hidden');
-        } else if (el.id === 'fifth') {
-            $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
-            $('#fifth').addClass('background-toggle');
-            $('.about, .credit, .projone, .projtwo, .projthree, .owrpg').removeClass('hidden');
-            $('.about, .projone, .projtwo, .projthree, .owrpg').addClass('hidden');
-        } else if (el.id === 'projone') {
-            $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
-            $('#projone').addClass('background-toggle');
-            $('.about, .credit, .projone, .projtwo, .projthree, .owrpg').removeClass('hidden');
-            $('.credit, .about, .projtwo, .projthree, .owrpg').addClass('hidden');   
-        } else if (el.id === 'projtwo') {
-            $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
-            $('#projtwo').addClass('background-toggle');
-            $('.about, .credit, .projone, .projtwo, .projthree, .owrpg').removeClass('hidden');
-            $('.credit, .about, .projone, .projthree, .owrpg').addClass('hidden');
-        } else if (el.id === 'projthree') {
-            $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
-            $('#projthree').addClass('background-toggle');
-            $('.about, .credit, .projone, .projtwo, .projthree, .owrpg').removeClass('hidden');
-            $('.credit, .about, .projone, .projtwo, .owrpg').addClass('hidden');
-        } else if (el.id === 'owrpg') {
-            $('#first, #fifth, #projone, #projtwo, #projthree, #owrpg').removeClass('background-toggle');
-            $('#owrpg').addClass('background-toggle');
-            $('.about, .credit, .projone, .projtwo, .projthree, .owrpg').removeClass('hidden');
-            $('.credit, .about, .projone, .projtwo, .projthree').addClass('hidden');            
-        }
-
-        if (el.classList.contains('see-more-nav-link')) {
-            $('.see-more-nav-link').removeClass('selected');
-            $(el).addClass('selected');
-            $('.see-more-body').removeClass('hidden');
-            $.each($('.see-more-body'), function (i, body) {
-                if (body.id !== el.id) {
-                    $(body).addClass('hidden');
-                }
-            });
-        }
         
-        if (el.classList.contains('picture-gallery-nav-lis')) {
-            $('.picture-gallery-nav-lis').removeClass('selected');
-            $(el).addClass('selected');
-            $('.mw-images').removeClass('hidden');
-            $.each($('.mw-images'), function (i, image) {
-                if (image.id !== el.id) {
-                    $(image).addClass('hidden');
-                }
-            });
+        if (el.id === 'intro-exit') {
+            $('.intro, #intro-exit').addClass('hidden');
+            $('.main-project').removeClass('hidden');
         }
 
     }
