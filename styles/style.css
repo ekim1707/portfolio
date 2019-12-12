@@ -84,7 +84,7 @@ h3 {
     }
 }
 .fadeInOut {
-    animation: fadeInOut 3s linear;
+    animation: fadeInOut 5s linear;
 }
 @keyframes fadeInOut {
     0%, 100% {
@@ -95,6 +95,20 @@ h3 {
     }
 }
 
+.main-project {
+    opacity: 1;
+}
+.fadeIn {
+    animation: fadeIn 1s linear;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 nav {
     display: flex;
     position: fixed;

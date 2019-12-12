@@ -237,16 +237,16 @@ $(document).ready(function () {
                                         if (!$('.intro').hasClass('hidden')) {
                                             $('.intro').addClass('hidden');
                                         }
-                                        $('.main-project').removeClass('hidden');
-                                    }, 3000);
-                                }, 3000);
-                            }, 3000);
-                        }, 3000);
-                    }, 3000);
-                }, 3000);
-            }, 3000);
-        }, 3000);
-    }, 5000);
+                                        $('.main-project').removeClass('hidden').addClass('fadeIn');
+                                    }, 5000);
+                                }, 5000);
+                            }, 5000);
+                        }, 5000);
+                    }, 5000);
+                }, 5000);
+            }, 5000);
+        }, 5000);
+    }, 7000);
 
     const controlClick = (e) => {
 
@@ -254,7 +254,7 @@ $(document).ready(function () {
         
         if (el.id === 'intro-exit') {
             $('.intro, #intro-exit').addClass('hidden');
-            $('.main-project').removeClass('hidden');
+            $('.main-project').removeClass('hidden').addClass('fadeIn');
         }
 
     }
