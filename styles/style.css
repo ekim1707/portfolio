@@ -163,8 +163,32 @@ nav {
     padding: 80px 40px;
     background: rgb(222, 221, 221);
 }
+.featured-icon {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: #00000029 0px 3px 6px;
+}
+.featured-picture {
+    margin-bottom: 20px;
+    box-shadow: #00000029 0px 3px 6px;
+}
 .iframe-management {
     margin-bottom: 20px;
+}
+.github-repo-button-disabled {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 5vh;
+    margin-bottom: 10px;
+    background: dodgerblue;
+    color: white;
+    font-weight: bolder;
+}
+.github-repo-button-disabled:disabled {
+    opacity: .6;
 }
 .github-repo-button {
     text-decoration: none;
